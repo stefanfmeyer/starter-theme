@@ -1,0 +1,12 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .ai1wm-container {
+    filter: contrast(2) invert(1) hue-rotate(180deg);
+    color: $mid-dark;
+    * {
+      color: $dark;
+    }
+  }
+}

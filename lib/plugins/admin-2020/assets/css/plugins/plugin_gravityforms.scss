@@ -1,0 +1,27 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+body.toplevel_page_gf_edit_forms .gforms_edit_form {
+  padding: 0;
+}
+
+body.toplevel_page_gf_edit_forms.a2020_admin_menu .gforms_edit_form {
+  width: calc(100% - 250px);
+}
+body.toplevel_page_gf_edit_forms.a2020_admin_bar .gforms_edit_form {
+  top: 61px;
+}
+body.toplevel_page_gf_edit_forms.a2020_admin_bar .editor-sidebar {
+  top: 121px;
+}
+body.toplevel_page_gf_edit_forms.a2020_admin_menu #gform-form-toolbar {
+  width: calc(100% - 250px);
+}
+
+body.toplevel_page_gf_edit_forms #wpbody-content .gforms_edit_form {
+  position: static;
+  width: 100%;
+}
+[data-icon]:before {
+  display: none;
+}

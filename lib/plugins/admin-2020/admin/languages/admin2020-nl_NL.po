@@ -1,0 +1,1771 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin 2020 Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-30 14:38+0000\n"
+"PO-Revision-Date: 2020-12-10 18:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.6"
+
+#: admin/inlcudes/admin/class-activation.php:135
+msgid "Activate"
+msgstr "Activeer"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:702
+msgid "Active Cards"
+msgstr "Actieve kaarten"
+
+#: admin/inlcudes/modules/premium/admin-content.php:464
+msgid "Add"
+msgstr "Voeg toe"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:258
+msgid "Add New Admin Page"
+msgstr "Voeg nieuwe Admin pagina toe"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:262
+msgid "Add New Folder"
+msgstr "Voeg nieuwe map toe"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:256
+msgctxt "add new on admin bar"
+msgid "Admin Page"
+msgstr "Admin pagina"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:260
+msgctxt "add new on admin bar"
+msgid "Folder"
+msgstr "Map"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:194
+msgid "Add Video"
+msgstr "Voeg video toe"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:167
+msgid "Add videos to the overview page"
+msgstr "Voeg videos toe"
+
+#. Author of the plugin
+msgid "Admin 2020"
+msgstr "Admin 2020"
+
+#: admin/inlcudes/modules/admin-bar.php:253
+msgid "Admin 2020 admin bar will be disabled for any users or roles you select"
+msgstr ""
+"De Admin 2020 adminbalk wordt uitgeschakeld voor alle gebruikers of rollen "
+"die u selecteert"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:127
+msgid ""
+"Admin 2020 admin pages will be disabled for any users or roles you select"
+msgstr ""
+"De Admin 2020 admin pagina's worden uitgeschakeld voor alle gebruikers of "
+"rollen die u selecteert"
+
+#: admin/inlcudes/modules/premium/admin-content.php:117
+msgid "Admin 2020 content page disabled for"
+msgstr "Admin 2020 inhoudspagina uitgeschakeld voor"
+
+#: admin/inlcudes/modules/premium/admin-content.php:118
+msgid ""
+"Admin 2020 Content Page will be disabled for any users or roles you select"
+msgstr ""
+"Admin 2020 inhoudspagina wordt uitgeschakeld voor alle gebruikers of rollen "
+"die u selecteert"
+
+#: admin/inlcudes/admin/class-activation.php:128
+msgid "Admin 2020 is not activated"
+msgstr "Admin 2020 is niet geactiveerd"
+
+#: admin/inlcudes/admin/class-settings.php:895
+msgid ""
+"Admin 2020 licence is active. To remove licence or change licence click "
+"remove."
+msgstr ""
+"Admin 2020 licentie is actief. Klik op verwijderen om de licentie te "
+"verwijderen of de licentie te wijzigen."
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:126
+msgid ""
+"Admin 2020 menu editor will be disabled for any users or roles you select"
+msgstr ""
+"De menu editor voor Admin 2020 wordt uitgeschakeld voor alle gebruikers of "
+"rollen die u selecteert"
+
+#: admin/inlcudes/modules/admin-menu.php:164
+msgid "Admin 2020 menu will be disabled for any users or roles you select"
+msgstr ""
+"Het Admin 2020 menu wordt uitgeschakeld voor alle gebruikers of rollen die u "
+"selecteert"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:104
+msgid ""
+"Admin 2020 overview page will be disabled for any users or roles you select"
+msgstr ""
+"De overzichtspagina van Admin 2020 wordt uitgeschakeld voor alle gebruikers "
+"of rollen die u selecteert"
+
+#. Name of the plugin
+msgid "Admin 2020 Pro"
+msgstr "Admin 2020 Pro"
+
+#: admin/inlcudes/admin/class-activation.php:188
+msgid "Admin 2020 succesfully activated"
+msgstr "Admin 2020 succesvol geactiveerd"
+
+#: admin/inlcudes/modules/admin-theme.php:140
+msgid "Admin 2020 theme will be disabled for any users or roles you select"
+msgstr ""
+"Het Admin 2020 thema wordt uitgeschakeld voor alle gebruikers of rollen die "
+"u selecteert"
+
+#: admin/inlcudes/modules/admin-bar.php:123
+msgid "Admin Bar"
+msgstr "Admin balk"
+
+#: admin/inlcudes/modules/admin-bar.php:252
+msgid "Admin Bar Disabled for"
+msgstr "Admin balk uitgeschakeld voor"
+
+#: admin/inlcudes/modules/admin-login.php:106
+#: admin/inlcudes/modules/admin-bar.php:177
+msgid "Admin Logo"
+msgstr "Admin logo"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:255
+msgctxt "admin menu"
+msgid "Admin Pages"
+msgstr "Admin pagina's"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:259
+msgctxt "admin menu"
+msgid "Folders"
+msgstr "Mappen"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:100
+msgid "Admin Pages"
+msgstr "Admin pagina's"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:126
+msgid "Admin Pages Disabled for"
+msgstr "Admin pagina's uitgeschakeld voor"
+
+#: admin/inlcudes/modules/premium/admin-advanced.php:93
+msgid "Advanced"
+msgstr "Geavanceerd "
+
+#: admin/inlcudes/modules/premium/admin-advanced.php:125
+msgid "Advanced Disabled for"
+msgstr "Geavanceerd  uitgeschakeld voor"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:278
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:428
+msgid "ago"
+msgstr "geleden"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:476
+#: admin/inlcudes/modules/premium/admin-content.php:545
+#: admin/inlcudes/modules/premium/admin-content.php:706
+#: admin/inlcudes/modules/premium/admin-content.php:720
+#: admin/inlcudes/modules/premium/admin-content.php:736
+#: admin/inlcudes/modules/premium/admin-overview.php:611
+msgid "All"
+msgstr "Alles"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:262
+msgid "All Admin Pages"
+msgstr "Alle Admin pagina's"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:266
+msgid "All Folders"
+msgstr "Alle mappen"
+
+#: admin/inlcudes/modules/admin-bar.php:1083
+msgid "All Updates"
+msgstr "Alle updates"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2106
+msgid "Alt"
+msgstr "Alternatief"
+
+#: admin/inlcudes/modules/premium/admin-content.php:440
+msgid "Alt Tag"
+msgstr "Alternatieve tag"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1679
+msgid "Alt Text"
+msgstr "Alternatieve tekst"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:69
+msgid "Analytics"
+msgstr "Analytics"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:159
+msgid "Analytics account"
+msgstr "Analytics account"
+
+#: admin/inlcudes/admin/class-settings.php:215
+msgid "Analytics account connected"
+msgstr "Analytics account verbonden"
+
+#: admin/inlcudes/admin/class-settings.php:249
+msgid "Analytics account removed"
+msgstr "Analytics account verwijderd"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1866
+msgid "Attachment Saved"
+msgstr "Bijlage opgeslagen"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2310
+msgid "Attachments successfully renamed"
+msgstr "Bijlagen zijn hernoemd"
+
+#: admin/inlcudes/modules/premium/admin-content.php:436
+msgid "Attribute to rename"
+msgstr "Kenmerk om te hernoemen"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1650
+msgid "Attributes"
+msgstr "Kenmerken"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:185
+msgid "Average Order Value"
+msgstr "Gemiddelde bestelwaarde"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:276
+msgid "Average Page Speed"
+msgstr "Gemiddelde paginasnelheid"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:570
+msgid "Avg page speed"
+msgstr "Gemiddelde paginasnelheid"
+
+#: admin/inlcudes/modules/admin-theme.php:200
+#: admin/inlcudes/modules/admin-menu.php:118
+#: admin/inlcudes/modules/admin-bar.php:207
+msgid "Background Color"
+msgstr ""
+"Achtergrond kleur\n"
+
+#: admin/inlcudes/modules/premium/admin-content.php:425
+#: admin/inlcudes/modules/premium/admin-content.php:510
+msgid "Batch Rename"
+msgstr "Batch hernoemen"
+
+#: admin/inlcudes/modules/premium/admin-content.php:428
+msgid ""
+"Batch rename only currently works with media files and attachments, any "
+"selected posts will be ignored."
+msgstr ""
+"Batch hernoemen werkt momenteel alleen met mediabestanden en bijlagen, alle "
+"geselecteerde berichten worden genegeerd."
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:278
+msgid "Bounce Rate"
+msgstr "Bouncepercentage"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1094
+msgid "By"
+msgstr "Door"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:435
+msgid "by"
+msgstr "door"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1686
+msgid "Caption"
+msgstr "Onderschrift"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:455
+#: admin/inlcudes/modules/premium/admin-overview.php:517
+msgid "Card options saved"
+msgstr "Kaart opties opgeslagen"
+
+#: admin/inlcudes/modules/admin-bar.php:876
+#: admin/inlcudes/modules/premium/admin-content.php:1394
+#: admin/inlcudes/modules/premium/admin-content.php:1480
+msgid "Categories"
+msgstr "Categorieën"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:183
+msgid "Category"
+msgstr "Categorie"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:849
+#: admin/inlcudes/modules/premium/admin-analytics.php:924
+#: admin/inlcudes/modules/premium/admin-analytics.php:1002
+msgid "Change"
+msgstr "Verandering"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:632
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:790
+msgid "Change Link"
+msgstr "Wijzig link"
+
+#: admin/inlcudes/admin/class-update.php:58
+msgid "Check for updates"
+msgstr "Controleer op updates"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:530
+#: admin/inlcudes/modules/premium/admin-folders.php:748
+msgid "Colour Tag"
+msgstr "Kleurtag"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:424
+#: admin/inlcudes/modules/premium/admin-analytics.php:506
+#: admin/inlcudes/modules/premium/admin-analytics.php:590
+#: admin/inlcudes/modules/premium/admin-analytics.php:665
+#: admin/inlcudes/modules/premium/admin-analytics.php:724
+#: admin/inlcudes/modules/premium/admin-analytics.php:794
+#: admin/inlcudes/modules/premium/admin-analytics.php:840
+#: admin/inlcudes/modules/premium/admin-analytics.php:915
+#: admin/inlcudes/modules/premium/admin-analytics.php:993
+msgid "Connect analytics account to view site statistics"
+msgstr "Koppel een Analytics account om sitestatistieken te bekijken"
+
+#: admin/inlcudes/modules/premium/admin-content.php:80
+#: admin/inlcudes/modules/premium/admin-content.php:326
+#: admin/inlcudes/modules/premium/admin-content.php:631
+#: admin/inlcudes/modules/premium/admin-content.php:1391
+msgid "Content"
+msgstr "Inhoud"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:846
+msgid "Country"
+msgstr "Land"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:540
+msgid "Create"
+msgstr "Creëer"
+
+#: admin/inlcudes/modules/admin-bar.php:125
+msgid ""
+"Creates new admin bar, adds user off canvas menu and builds global search"
+msgstr ""
+"Creëert een nieuwe admin balk, voegt een user off canvas menu toe en bouwt "
+"een globale zoekopdracht"
+
+#: admin/inlcudes/modules/admin-menu.php:80
+msgid "Creates new admin menu."
+msgstr "Creëert een nieuw admin menu."
+
+#: admin/inlcudes/modules/premium/admin-advanced.php:95
+msgid "Creates options for adding customm CSS and JS."
+msgstr "Creëert opties voor het toevoegen van aangepaste CSS en JS."
+
+#: admin/inlcudes/modules/premium/admin-pages.php:102
+msgid ""
+"Creates the admin pages editor, allowing you to create new top level admin "
+"pages and their content"
+msgstr ""
+"Maakt de admin pagina editor, waarmee u nieuwe beheerderspagina's op het "
+"hoogste niveau en hun inhoud kunt maken"
+
+#: admin/inlcudes/modules/premium/admin-content.php:82
+msgid ""
+"Creates the content page where you can manage all of your assets, posts and "
+"pages from one place."
+msgstr ""
+"Creëert de inhoudspagina waar u al uw assets, berichten en pagina's vanaf "
+"één plek kunt beheren."
+
+#: admin/inlcudes/modules/premium/admin-folders.php:120
+msgid "Creates the folder system for the content page and media page / modals."
+msgstr ""
+"Creëert het mappensysteem voor de inhoudspagina en mediapagina / modals."
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:71
+msgid "Creates the google analytics cards for the overview page."
+msgstr "Maakt de Google Analytics kaarten voor de overzichtspagina."
+
+#: admin/inlcudes/modules/admin-theme.php:107
+msgid ""
+"Creates the main theme for admin 2020. Disables default WordPress theme and "
+"applies admin 2020."
+msgstr ""
+"Creëert het hoofdthema voor Admin 2020. Schakelt het standaard WordPress "
+"thema uit en past Admin 2020 toe."
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:101
+msgid ""
+"Creates the menu editor and allows for rearanging, renaming and removal of "
+"menu items."
+msgstr ""
+"Creëert de menu editor en maakt het mogelijk om menu-items te herschikken, "
+"hernoemen en verwijderen."
+
+#: admin/inlcudes/modules/premium/admin-overview.php:71
+msgid ""
+"Creates the overview page. If this is disabled, you will not be able to see "
+"analytics cards or woocommerce cards."
+msgstr ""
+"Creëert de overzichtspagina. Als dit is uitgeschakeld, kunt u geen Analytics "
+"kaarten of WooCommerce kaarten zien."
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:75
+msgid "Creates the woocommerce cards for the overview page."
+msgstr "Maakt de WooCommerce kaarten voor de overzichtspagina."
+
+#: admin/inlcudes/modules/premium/admin-advanced.php:187
+msgid "CSS added here will be loaded on every admin page."
+msgstr "CSS die hier wordt toegevoegd, wordt op elke admin pagina geladen."
+
+#: admin/inlcudes/modules/premium/admin-content.php:2111
+msgid "Current Alt"
+msgstr "Huidige Alt"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2134
+msgid "Current Extension"
+msgstr "Huidige extensie"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2041
+msgid "Current Filename"
+msgstr "Huidige bestandsnaam"
+
+#: admin/inlcudes/modules/premium/admin-advanced.php:186
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: admin/inlcudes/modules/premium/admin-advanced.php:126
+msgid "Custom CSS and JS will not load for the selected roles and users."
+msgstr ""
+"Aangepaste CSS en JS worden niet geladen voor de geselecteerde rollen en "
+"gebruikers."
+
+#: admin/inlcudes/modules/premium/admin-advanced.php:215
+msgid "Custom JS"
+msgstr "Aangepaste JS"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:622
+msgid "Customer"
+msgstr "Klant"
+
+#: admin/inlcudes/modules/admin-theme.php:222
+#: admin/inlcudes/modules/admin-menu.php:140
+#: admin/inlcudes/modules/admin-bar.php:193
+#: admin/inlcudes/modules/admin-bar.php:229
+msgid "Dark"
+msgstr "Donker"
+
+#: admin/inlcudes/modules/admin-bar.php:198
+msgid "Dark Logo Url"
+msgstr "Donker logo Url"
+
+#: admin/inlcudes/modules/admin-login.php:126
+#: admin/inlcudes/modules/admin-bar.php:1006
+msgid "Dark Mode"
+msgstr "Donkere modus"
+
+#: admin/inlcudes/modules/admin-bar.php:618
+msgid "Date"
+msgstr "Datum"
+
+#: admin/inlcudes/modules/premium/admin-content.php:454
+#: admin/inlcudes/modules/premium/admin-content.php:2082
+msgid "Date Uploaded"
+msgstr "Datum van uploaden"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:435
+#: admin/inlcudes/modules/premium/admin-analytics.php:517
+#: admin/inlcudes/modules/premium/admin-analytics.php:601
+#: admin/inlcudes/modules/premium/admin-analytics.php:735
+#: admin/inlcudes/modules/premium/admin-analytics.php:805
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:91
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:150
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:207
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:333
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:453
+msgid "days"
+msgstr "dagen"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:761
+#: admin/inlcudes/modules/premium/admin-content.php:511
+#: admin/inlcudes/modules/premium/admin-content.php:1513
+#: admin/inlcudes/modules/premium/admin-content.php:1766
+msgid "Delete"
+msgstr "Verwijder"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1693
+msgid "Description"
+msgstr "Beschrijving"
+
+#: admin/inlcudes/modules/premium/admin-content.php:509
+msgid "Deselect All"
+msgstr "De-selecteer alles"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:651
+msgid "Devices"
+msgstr "Apparaten"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1739
+msgid "Dimensions"
+msgstr "Dimensies"
+
+#: admin/inlcudes/admin/class-activation.php:162
+msgid "Dimiss"
+msgstr "Afwijzen"
+
+#: admin/inlcudes/modules/admin-bar.php:332
+msgid "Disable Create Button"
+msgstr "Schakel de knop Maken uit"
+
+#: admin/inlcudes/modules/admin-menu.php:223
+#: admin/inlcudes/modules/admin-bar.php:312
+msgid "Disable Search"
+msgstr "Schakel Zoeken uit"
+
+#: admin/inlcudes/modules/admin-bar.php:353
+msgid "Disable View Website Button"
+msgstr "Schakel de knop Website weergeven uit"
+
+#: admin/inlcudes/modules/admin-menu.php:224
+msgid "Disables admin menu search"
+msgstr "Schakelt zoeken in het admin menu uit"
+
+#: admin/inlcudes/modules/admin-bar.php:313
+msgid "Disables search icon and global search function from admin bar"
+msgstr ""
+"Schakelt het zoekpictogram en de algemene zoekfunctie uit vanuit de admin "
+"balk"
+
+#: admin/inlcudes/modules/admin-bar.php:333
+msgid "Disables the 'new' button in the admin bar"
+msgstr "Schakelt de knop 'nieuw' in de admin balk uit"
+
+#: admin/inlcudes/modules/admin-bar.php:354
+msgid "Disables the view website link button in the admin bar"
+msgstr "Schakelt de link naar website-link in de beheerbalk uit"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:642
+msgid "Double click to edit"
+msgstr "Dubbel klik om te bewerken"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1371
+msgid "Duplicate"
+msgstr "Dupliceer"
+
+#: admin/inlcudes/modules/admin-bar.php:633
+#: admin/inlcudes/modules/premium/admin-content.php:1369
+#: admin/inlcudes/modules/premium/admin-content.php:1655
+msgid "Edit"
+msgstr "Bewerk"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:260
+msgid "Edit Admin Page"
+msgstr "Bewerk Admin pagina"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:271
+msgid ""
+"Edit each menu item's name, link, icon and visibility. Drag and drop to "
+"rearange the menu. Changes will take effect after page refresh."
+msgstr ""
+"Bewerk de naam, link, pictogram en zichtbaarheid van elk menu-item. Sleep en "
+"zet neer om het menu opnieuw in te delen. Wijzigingen worden van kracht "
+"nadat de pagina is vernieuwd."
+
+#: admin/inlcudes/modules/premium/admin-folders.php:264
+#: admin/inlcudes/modules/premium/admin-folders.php:746
+msgid "Edit Folder"
+msgstr "Bewerk map"
+
+#: admin/inlcudes/admin/class-activation.php:132
+msgid "Enter your licence key"
+msgstr "Voer je licentiesleutel in"
+
+#: admin/inlcudes/admin/class-settings.php:764
+msgid "Export"
+msgstr "Exporteer"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:310
+msgid "Export Menu"
+msgstr "Exporteer menu"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2129
+msgid "Extension"
+msgstr "Extensie "
+
+#: admin/inlcudes/modules/premium/admin-content.php:2346
+#: admin/inlcudes/modules/premium/admin-content.php:2464
+msgid "Failed to upload file"
+msgstr "Upload bestand mislukt"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1457
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: admin/inlcudes/modules/premium/admin-content.php:456
+msgid "File Extension"
+msgstr "Bestandsextensie"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2484
+msgid "File saved as copy"
+msgstr "Bestand opgeslagen als kopie"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1725
+msgid "File Type"
+msgstr "Bestandstype"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2036
+msgid "Filename"
+msgstr "Bestandsnaam"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2374
+msgid "Files succesfully uploaded"
+msgstr "Bestanden succesvol geüpload"
+
+#: admin/inlcudes/modules/premium/admin-content.php:695
+msgid "Filters"
+msgstr "Filters"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:261
+#: admin/inlcudes/modules/premium/admin-pages.php:257
+msgctxt "folder"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:951
+msgid "Folder is already there"
+msgstr "De map is er al"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:980
+msgid "Folder Moved"
+msgstr "Map verplaatst"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:529
+#: admin/inlcudes/modules/premium/admin-folders.php:747
+msgid "Folder Name"
+msgstr "Map naam"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:881
+msgid "Folder succesfully deleted"
+msgstr "Map succesvol verwijderd"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:834
+msgid "Folder succesfully renamed"
+msgstr "Map succesvol hernoemd"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:118
+#: admin/inlcudes/modules/premium/admin-folders.php:313
+msgid "Folders"
+msgstr "Mappen"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:147
+msgid "Folders Disabled for"
+msgstr "Mappen uitgeschakeld voor"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:148
+msgid "Folders will be disabled for any users or roles you select"
+msgstr ""
+"Mappen worden uitgeschakeld voor alle gebruikers of rollen die u selecteert"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:569
+msgid "For given date period"
+msgstr "Voor bepaalde datumperiode"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2087
+msgid "Format"
+msgstr "Format"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:96
+msgid "Google Analytics Disabled for"
+msgstr "Google Analytics uitgeschakeld voor"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:97
+msgid "Google Analytics will be disabled for any users or roles you select"
+msgstr ""
+"Google Analytics wordt uitgeschakeld voor alle gebruikers of rollen die u "
+"selecteert"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:680
+msgid "Hello"
+msgstr "Hallo"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:168
+msgid ""
+"Here you can add video links that will then load up as video cards on the "
+"overviewpage. Choosing a category name will also give it a custom category "
+"on the overview page. "
+msgstr ""
+"Hier kunt u videolinks toevoegen die vervolgens als videokaarten op de "
+"overzichtspagina worden geladen. Als u een categorienaam kiest, krijgt deze "
+"ook een aangepaste categorie op de overzichtspagina."
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:429
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:577
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:734
+msgid "Hidden For Roles"
+msgstr "Verborgen voor rollen"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:357
+#: admin/inlcudes/modules/premium/admin-overview.php:830
+msgid "Hide"
+msgstr "Verbergen"
+
+#: admin/inlcudes/modules/admin-bar.php:416
+msgid "Hide admin bar on front end"
+msgstr "Verberg de admin balk aan de voorkant"
+
+#: admin/inlcudes/modules/admin-bar.php:1028
+msgid "Hide WP links"
+msgstr "Verberg WP links"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://admintwentytwenty.com"
+msgstr "https://admintwentytwenty.com"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:818
+msgid "Icons"
+msgstr "Pictogrammen"
+
+#: admin/inlcudes/modules/admin-bar.php:396
+msgid ""
+"If enabled, admin 2020 admin bar will be load on the front end. Please note, "
+"this will not work on all themes and styling will vary."
+msgstr ""
+"Indien ingeschakeld, wordt de Admin 2020 admin balk aan de voorkant geladen. "
+"Let op: dit werkt niet bij alle thema's en de stijl kan variëren."
+
+#: admin/inlcudes/modules/admin-login.php:148
+msgid ""
+"If enabled, after logging in users will be redirected to the overview page"
+msgstr ""
+"Indien ingeschakeld, worden gebruikers na het inloggen doorgestuurd naar de "
+"overzichtspagina"
+
+#: admin/inlcudes/modules/admin-bar.php:375
+msgid ""
+"If enabled, dark mode will default to true for users that haven't set a "
+"preference."
+msgstr ""
+"Indien ingeschakeld, wordt de donkere modus standaard waar voor gebruikers "
+"die geen voorkeur hebben ingesteld."
+
+#: admin/inlcudes/modules/admin-bar.php:417
+msgid "If enabled, front end admin bar will not load."
+msgstr ""
+"Indien ingeschakeld, wordt de admin balk van de front-end niet geladen."
+
+#: admin/inlcudes/modules/admin-menu.php:245
+msgid ""
+"If enabled, the menu will default to the shrunk menu for users that haven't "
+"set a preference."
+msgstr ""
+"Indien ingeschakeld, wordt de admin balk van de front-end niet geladen."
+
+#: admin/inlcudes/admin/class-settings.php:926
+msgid ""
+"If this is enabled then all the settings here will be applied to your "
+"subsites and they will not be able to be changed from a subsite."
+msgstr ""
+"Als dit is ingeschakeld, worden alle instellingen hier toegepast op uw "
+"subsites en kunnen ze niet worden gewijzigd vanaf een subsite."
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:275
+msgid ""
+"If you have admin 2020 menu component disabled, icons and label dividers "
+"won't change."
+msgstr ""
+"Als je de menucomponent Admin 2020 hebt uitgeschakeld, veranderen "
+"pictogrammen en labelverdelers niet."
+
+#: admin/inlcudes/modules/premium/admin-content.php:2428
+msgid "Image Saved"
+msgstr "Afbeelding opgeslagen"
+
+#: admin/inlcudes/admin/class-settings.php:774
+msgid "Import"
+msgstr "Importeer"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:317
+msgid "Import Menu"
+msgstr "Importeer menu"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:333
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:453
+msgid "In the last"
+msgstr "In de laatste "
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:91
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:150
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:207
+msgid "In the last "
+msgstr "In de laatste "
+
+#: admin/inlcudes/modules/premium/admin-content.php:1940
+msgid "insufficient privileges to delete item"
+msgstr "onvoldoende rechten om item te verwijderen"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2260
+msgid "Invalid Date Format"
+msgstr ""
+"Ongeldige datum\n"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1935
+msgid "Item Deleted"
+msgstr "Item verwijderd"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1822
+msgid "Item Updated"
+msgstr "Item bijgewerkt"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1910
+msgid "Items Deleted"
+msgstr "Items verwijderd"
+
+#: admin/inlcudes/modules/premium/admin-advanced.php:216
+msgid "JS added here will be loaded on every admin page."
+msgstr "JS die hier wordt toegevoegd, wordt op elke admin pagina geladen."
+
+#: admin/inlcudes/admin/class-settings.php:894
+msgid "Licence"
+msgstr "Licentie"
+
+#: admin/inlcudes/admin/class-settings.php:287
+msgid "Licence removed"
+msgstr "Licentie verwijderd"
+
+#: admin/inlcudes/modules/admin-theme.php:204
+#: admin/inlcudes/modules/admin-menu.php:122
+#: admin/inlcudes/modules/admin-bar.php:181
+#: admin/inlcudes/modules/admin-bar.php:211
+msgid "Light"
+msgstr "Licht"
+
+#: admin/inlcudes/modules/admin-bar.php:186
+msgid "Light Logo Url"
+msgstr "Lichte logo Url"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1706
+msgid "Link copied to clipboard"
+msgstr "Link gekopieerd naar klembord"
+
+#: admin/inlcudes/modules/admin-bar.php:395
+msgid "Load admin 2020 bar on front end"
+msgstr "Laad de Admin 2020 balk op de voorkant"
+
+#: admin/inlcudes/modules/premium/admin-content.php:374
+msgid "Load More"
+msgstr "Laad meer"
+
+#: admin/inlcudes/modules/admin-login.php:81
+msgid "Login"
+msgstr "Login"
+
+#: admin/inlcudes/modules/admin-login.php:114
+msgid "Login background url"
+msgstr "Login achtergrond url"
+
+#: admin/inlcudes/modules/admin-login.php:127
+msgid "Login style will match dark theme if enabled"
+msgstr "Inlogstijl komt overeen met donker thema, indien ingeschakeld"
+
+#: admin/inlcudes/modules/admin-bar.php:1045
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:341
+#: admin/inlcudes/modules/premium/admin-overview.php:814
+msgid "Make Default"
+msgstr "Maak standaard"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:336
+#: admin/inlcudes/modules/premium/admin-overview.php:809
+msgid "Make Primary"
+msgstr "Maak primair"
+
+#: admin/inlcudes/modules/admin-menu.php:78
+msgid "Menu"
+msgstr "Menu"
+
+#: admin/inlcudes/modules/admin-menu.php:163
+msgid "Menu Disabled for"
+msgstr "Menu uitgeschakeld voor"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:99
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:300
+msgid "Menu Editor"
+msgstr "Menu editor"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:251
+msgid "Menu Editor (Admin 2020)"
+msgstr "Menu Editor (Admin 2020)"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:125
+msgid "Menu Editor Disabled for"
+msgstr "Menu editor uitgeschakeld voor"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:1558
+msgid "Menu Imported"
+msgstr "Menu geïmporteerd "
+
+#: admin/inlcudes/modules/premium/admin-content.php:1651
+msgid "Meta"
+msgstr "Meta"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2180
+msgid "Meta Key"
+msgstr "Meta Sleutel"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2175
+msgid "Meta key"
+msgstr "Meta sleutel"
+
+#: admin/inlcudes/modules/premium/admin-content.php:458
+msgid "Meta Value"
+msgstr "Meta Waarde"
+
+#: admin/inlcudes/admin/class-settings.php:798
+#: admin/inlcudes/admin/class-settings.php:886
+msgid "Modules"
+msgstr "Modules"
+
+#: admin/inlcudes/admin/class-settings.php:338
+msgid "Modules saved"
+msgstr "Modules opgeslagen"
+
+#: admin/inlcudes/modules/premium/admin-content.php:703
+msgid "Month"
+msgstr "Maand"
+
+#: admin/inlcudes/modules/premium/admin-content.php:439
+#: admin/inlcudes/modules/premium/admin-overview.php:177
+msgid "Name"
+msgstr "Naam"
+
+#: admin/inlcudes/modules/premium/admin-content.php:636
+msgid "New"
+msgstr "Nieuw"
+
+#: admin/inlcudes/modules/admin-bar.php:1261
+msgid "new"
+msgstr "nieuw"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:259
+msgid "New Admin Page"
+msgstr "Nieuwe Admin pagina"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:263
+#: admin/inlcudes/modules/premium/admin-folders.php:524
+#: admin/inlcudes/modules/premium/admin-folders.php:528
+msgid "New Folder"
+msgstr "Nieuwe map"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:633
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:791
+msgid "New Link..."
+msgstr "Nieuwe link..."
+
+#: admin/inlcudes/modules/premium/admin-content.php:446
+msgid "New Name"
+msgstr "Nieuwe naam"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:424
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:572
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:729
+msgid "New name..."
+msgstr "Nieuwe naam..."
+
+#: admin/inlcudes/modules/premium/admin-content.php:2064
+msgid "New text"
+msgstr "Nieuwe tekst"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:265
+msgid "No Admin Pages found in Trash."
+msgstr "Geen admin pagina's gevonden in prullenbak."
+
+#: admin/inlcudes/modules/premium/admin-pages.php:264
+msgid "No Admin Pages found."
+msgstr "Geen admin pagina's gevonden."
+
+#: admin/inlcudes/modules/premium/admin-content.php:2215
+msgid "No attachments selected"
+msgstr "Geen bijlagen geselecteerd"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:480
+msgid "No Card supplied to hide"
+msgstr "Geen kaart geleverd om te verbergen"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:413
+msgid "No Card supplied to save"
+msgstr "Geen kaart geleverd om op te slaan"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:261
+msgid "No comments for date range"
+msgstr "Geen reacties voor datumbereik"
+
+#: admin/inlcudes/modules/premium/admin-content.php:808
+msgid "No content found"
+msgstr "Geen inhoud gevonden"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:269
+msgid "No Folders found in Trash."
+msgstr ""
+"Geen mappen gevonden in prullenbak.\n"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:268
+msgid "No Folders found."
+msgstr "Geen mappen gevonden."
+
+#: admin/inlcudes/admin/class-activation.php:221
+msgid "No licence key provided"
+msgstr "Geen licentiesleutel verstrekt"
+
+#: admin/inlcudes/admin/class-settings.php:319
+#: admin/inlcudes/admin/class-settings.php:368
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:1468
+msgid "No options supplied to save"
+msgstr "Geen opties geleverd om op te slaan"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:416
+msgid "No posts for date range"
+msgstr "Geen berichten voor datumbereik"
+
+#: admin/inlcudes/admin/class-utilities.php:125
+msgid "No preferences supplied to save"
+msgstr "Geen voorkeuren opgegeven om op te slaan"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:325
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:444
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:560
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:615
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:736
+msgid "No sales data available for dates"
+msgstr "Geen verkoopgegevens beschikbaar voor datums"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:959
+msgid "No source or destination provided"
+msgstr "Geen bron of bestemming opgegeven"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:660
+msgid "No sub menu items"
+msgstr "Geen submenu items"
+
+#: admin/inlcudes/admin/class-update.php:128
+msgid "No Updates available"
+msgstr "Geen updates beschikbaar"
+
+#: admin/inlcudes/admin/class-settings.php:547
+msgid "No video supplied to delete"
+msgstr "Geen video aangeleverd om te verwijderen"
+
+#: admin/inlcudes/admin/class-settings.php:471
+msgid "No video supplied to save"
+msgstr "Geen video geleverd om op te slaan"
+
+#: admin/inlcudes/modules/admin-bar.php:1123
+msgid "Notifications"
+msgstr "Notificaties"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:319
+msgid "on"
+msgstr "aan"
+
+#: admin/inlcudes/modules/admin-bar.php:478
+msgid "Only the selected post types will show up in the create dropdown."
+msgstr ""
+"Alleen de geselecteerde berichttypen worden weergegeven bij de nieuw-knop."
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:621
+msgid "Order"
+msgstr "Bestelling"
+
+#: admin/inlcudes/modules/premium/admin-content.php:455
+msgid "Original Alt"
+msgstr "Oorspronkelijke Alt"
+
+#: admin/inlcudes/modules/premium/admin-content.php:452
+msgid "Original Filename"
+msgstr "Oorspronkelijke bestandsnaam"
+
+#: admin/inlcudes/admin/class-settings.php:925
+msgid "Override Subsite Settings?"
+msgstr "Subsite instellingen overschrijven?"
+
+#: admin/inlcudes/modules/admin-bar.php:981
+#: admin/inlcudes/modules/premium/admin-overview.php:69
+#: admin/inlcudes/modules/premium/admin-overview.php:293
+msgid "Overview"
+msgstr "Overzicht"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:103
+msgid "Overview Disabled for"
+msgstr "Overzicht uitgeschakeld voor"
+
+#: admin/inlcudes/modules/admin-theme.php:282
+msgid "Padding"
+msgstr "Opvulling"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:999
+msgid "Page"
+msgstr "Pagina"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:404
+msgid "Page Views"
+msgstr "Pagina weergaven"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:356
+msgid "PHP version"
+msgstr "PHP versie"
+
+#: admin/inlcudes/admin/class-activation.php:129
+msgid "Please add a valid licence to activate"
+msgstr "Voeg een geldige licentie toe om te activeren"
+
+#: admin/inlcudes/modules/admin-bar.php:1100
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:360
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:186
+msgid "Popular Products"
+msgstr "Populaire producten"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2007
+msgid "Post duplicated"
+msgstr "Post gedupliceerd"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:253
+msgctxt "post type general name"
+msgid "Admin Page"
+msgstr "Admin pagina"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:257
+msgctxt "post type general name"
+msgid "Folder"
+msgstr "Map"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:254
+msgctxt "post type singular name"
+msgid "Admin Page"
+msgstr "Admin pagina"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:258
+msgctxt "post type singular name"
+msgid "folder"
+msgstr "map"
+
+#: admin/inlcudes/modules/admin-bar.php:855
+msgid "Post Types"
+msgstr "Berichten"
+
+#: admin/inlcudes/modules/admin-bar.php:477
+msgid "Post Types available in create button (new)"
+msgstr "Berichttypen beschikbaar in de knop nieuw"
+
+#: admin/inlcudes/modules/admin-bar.php:437
+#: admin/inlcudes/modules/premium/admin-content.php:177
+msgid "Post Types available in Search"
+msgstr "Berichttypen beschikbaar in Zoeken"
+
+#. Description of the plugin
+msgid ""
+"Powerful WordPress admin extension with a streamlined dashboard, Google "
+"Analytics & WooCommerce Integration, intuitive media library, dark mode and "
+"much more."
+msgstr ""
+"Krachtige WordPress admin-extensie met een gestroomlijnd dashboard, Google "
+"Analytics & WooCommerce integratie, intuïtieve mediabibliotheek, donkere "
+"modus en nog veel meer."
+
+#: admin/inlcudes/modules/admin-bar.php:982
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: admin/inlcudes/admin/class-utilities.php:145
+msgid "Preferences saved"
+msgstr "Voorkeuren opgeslagen"
+
+#: admin/inlcudes/modules/premium/admin-content.php:482
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: admin/inlcudes/modules/admin-theme.php:242
+msgid "Primary Color"
+msgstr "Primaire kleur"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:697
+msgid "Product"
+msgstr "Product"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:277
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:28
+msgid "Recent Comments"
+msgstr "Recente reacties"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:187
+msgid "Recent Orders"
+msgstr "Recente bestellingen "
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:30
+msgid "Recently Published"
+msgstr "Recent gepubliceerd"
+
+#: admin/inlcudes/modules/admin-login.php:147
+msgid "Redirect to overview page"
+msgstr "Doorverwijzen naar overzichtspagina"
+
+#: admin/inlcudes/admin/class-settings.php:898
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:176
+msgid "Remove Account"
+msgstr "Verwijder account"
+
+#: admin/inlcudes/modules/premium/admin-content.php:487
+msgid "Rename"
+msgstr "Hernoemen"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:423
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:571
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:728
+msgid "Rename as"
+msgstr "Hernoemen als"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:322
+msgid "Reset Menu"
+msgstr "Reset menu"
+
+#: admin/inlcudes/admin/class-settings.php:848
+#: admin/inlcudes/admin/class-settings.php:973
+#: admin/inlcudes/modules/premium/admin-folders.php:764
+#: admin/inlcudes/modules/premium/admin-content.php:1510
+#: admin/inlcudes/modules/premium/admin-content.php:1763
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:304
+#: admin/inlcudes/modules/premium/admin-overview.php:745
+msgid "Save"
+msgstr "Opslaan"
+
+#: admin/inlcudes/modules/admin-menu.php:417
+#: admin/inlcudes/modules/admin-bar.php:836
+#: admin/inlcudes/modules/admin-bar.php:846
+#: admin/inlcudes/modules/premium/admin-content.php:688
+msgid "Search"
+msgstr "Zoeken"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:263
+msgid "Search Admin Pages"
+msgstr "Zoek admin pagina's"
+
+#: admin/inlcudes/modules/premium/admin-content.php:692
+msgid "Search Content"
+msgstr "Zoek inhoud"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:267
+msgid "Search Folders"
+msgstr "Zoek mappen"
+
+#: admin/inlcudes/modules/admin-bar.php:828
+msgid "Search website"
+msgstr "Zoek op website"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:1007
+msgid "Select"
+msgstr "Selecteer"
+
+#: admin/inlcudes/modules/admin-bar.php:201
+msgid "Select Dark Logo"
+msgstr "Selecteer donker logo"
+
+#: admin/inlcudes/modules/admin-bar.php:189
+msgid "Select Light Logo"
+msgstr "Selecteer licht logo"
+
+#: admin/inlcudes/modules/admin-login.php:117
+msgid "Select login background"
+msgstr "Selecteer inlogachtergrond"
+
+#: admin/inlcudes/modules/admin-bar.php:462
+#: admin/inlcudes/modules/admin-bar.php:502
+#: admin/inlcudes/modules/premium/admin-content.php:202
+msgid "Select Post Types"
+msgstr "Selecteer berichttypen"
+
+#: admin/inlcudes/modules/admin-theme.php:185
+#: admin/inlcudes/modules/admin-menu.php:208
+#: admin/inlcudes/modules/admin-bar.php:297
+#: admin/inlcudes/modules/premium/admin-folders.php:194
+#: admin/inlcudes/modules/premium/admin-advanced.php:171
+#: admin/inlcudes/modules/premium/admin-analytics.php:142
+#: admin/inlcudes/modules/premium/admin-content.php:163
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:171
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:472
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:619
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:777
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:148
+#: admin/inlcudes/modules/premium/admin-pages.php:172
+#: admin/inlcudes/modules/premium/admin-overview.php:149
+msgid "Select roles or users"
+msgstr "Selecteer rollen of gebruikers"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:160
+msgid ""
+"Select the google analytics account you wish to use for displaying data on "
+"the overview page"
+msgstr ""
+"Selecteer het Google Analytics account dat u wilt gebruiken voor het "
+"weergeven van gegevens op de overzichtspagina"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:415
+msgid "Separator"
+msgstr "Tussenruimte"
+
+#: admin/inlcudes/modules/premium/admin-content.php:457
+msgid "Sequence Number"
+msgstr "Volgnummer"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2152
+msgid "Sequence start num"
+msgstr "Sequence start num"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:282
+msgid "Session Duration"
+msgstr "Sessieduur"
+
+#: admin/inlcudes/modules/admin-menu.php:244
+msgid "Set collapsed menu as default"
+msgstr "Stel het samengevouwen menu in als standaard"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:637
+msgid "Set custom icon"
+msgstr "Stel een aangepast pictogram in"
+
+#: admin/inlcudes/modules/admin-bar.php:374
+msgid "Set Dark Mode as Default"
+msgstr "Stel de donkere modus in als standaard"
+
+#: admin/inlcudes/modules/admin-theme.php:201
+msgid "Sets a background colour for admin pages."
+msgstr "Stelt een achtergrondkleur in voor admin pagina's."
+
+#: admin/inlcudes/modules/admin-bar.php:208
+msgid "Sets a background colour for the admin bar."
+msgstr "Stelt een achtergrondkleur in voor de admin balk."
+
+#: admin/inlcudes/modules/admin-menu.php:119
+msgid "Sets a background colour for the admin menu."
+msgstr "Stelt een achtergrondkleur in voor het admin menu."
+
+#: admin/inlcudes/modules/admin-login.php:107
+msgid "Sets an optional background image for the login page."
+msgstr "Stelt een optionele achtergrondafbeelding in voor de inlogpagina."
+
+#: admin/inlcudes/modules/admin-theme.php:283
+msgid "Sets padding (in px) for cards, metaboxes and other items in the UI."
+msgstr ""
+"Stelt opvulling (in px) in voor kaarten, metaboxen en andere items in de "
+"gebruikersinterface."
+
+#: admin/inlcudes/modules/admin-bar.php:178
+msgid ""
+"Sets the logo for the admin bar and also the logo for the login page if "
+"login styles is enabled. If no logo is set for dark mode then then the light "
+"logo will be used."
+msgstr ""
+"Stelt het logo in voor de admin balk en ook het logo voor de inlogpagina als "
+"inlogstijlen zijn ingeschakeld. Als er geen logo is ingesteld voor de "
+"donkere modus, wordt het lichte logo gebruikt."
+
+#: admin/inlcudes/modules/admin-theme.php:243
+msgid "Sets the primary color throughout Admin 2020."
+msgstr "Stelt de primaire kleur in in Admin 2020."
+
+#: admin/inlcudes/admin/class-settings.php:67
+#: admin/inlcudes/modules/premium/admin-content.php:755
+#: admin/inlcudes/modules/premium/admin-content.php:1392
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:559
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/inlcudes/admin/class-settings.php:450
+msgid "Settings Imported"
+msgstr "Instellingen geïmporteerd"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:1508
+msgid "Settings reset"
+msgstr "Instellingen reset"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:1477
+msgid "Settings saved"
+msgstr "Instellingen opgeslagen"
+
+#: admin/inlcudes/admin/class-settings.php:391
+msgid "Settings saved. You may need to refresh for changes to take effect."
+msgstr ""
+"Instellingen opgeslagen. Mogelijk moet u vernieuwen om de wijzigingen door "
+"te voeren."
+
+#: admin/inlcudes/modules/admin-bar.php:1017
+#: admin/inlcudes/modules/admin-bar.php:1253
+msgid "Show screen options"
+msgstr "Laat scherm opties zien"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:487
+msgid "Site Users"
+msgstr "Site gebruikers"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1733
+msgid "Size"
+msgstr "Grootte"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:698
+msgid "Sold"
+msgstr "Verkocht"
+
+#: admin/inlcudes/admin/class-settings.php:394
+#: admin/inlcudes/admin/class-settings.php:523
+#: admin/inlcudes/admin/class-settings.php:594
+#: admin/inlcudes/modules/premium/admin-folders.php:826
+#: admin/inlcudes/modules/premium/admin-folders.php:854
+#: admin/inlcudes/modules/premium/admin-folders.php:970
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:1481
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:1512
+msgid "Something went wrong"
+msgstr "Er is iets fout gegaan"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:921
+msgid "Source"
+msgstr "Bron"
+
+#: admin/inlcudes/modules/premium/admin-content.php:2157
+msgid "Start Number"
+msgstr "Start nummer"
+
+#: admin/inlcudes/modules/admin-bar.php:921
+msgid "Start searching to see results"
+msgstr "Begin met zoeken om resultaten te zien"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1436
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:623
+msgid "Status"
+msgstr "Status"
+
+#: admin/inlcudes/modules/admin-login.php:83
+msgid "Styles the admin login page."
+msgstr "Vormt de aanmeldingspagina."
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:560
+msgid "Sub Menu"
+msgstr "Submenu"
+
+#: admin/inlcudes/modules/admin-theme.php:154
+#: admin/inlcudes/modules/admin-menu.php:178
+#: admin/inlcudes/modules/admin-bar.php:266
+#: admin/inlcudes/modules/premium/admin-folders.php:163
+#: admin/inlcudes/modules/premium/admin-advanced.php:140
+#: admin/inlcudes/modules/premium/admin-analytics.php:111
+#: admin/inlcudes/modules/premium/admin-content.php:132
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:140
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:441
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:588
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:745
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:116
+#: admin/inlcudes/modules/premium/admin-pages.php:141
+#: admin/inlcudes/modules/premium/admin-overview.php:118
+msgid "Super Admin"
+msgstr "Super Admin"
+
+#: admin/inlcudes/admin/class-activation.php:157
+msgid "Supercharge your admin with Admin 2020 Pro"
+msgstr "Geef uw admin een boost met Admin 2020 Pro"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:29
+msgid "System Info"
+msgstr "Syteem info"
+
+#: admin/inlcudes/modules/premium/admin-content.php:453
+#: admin/inlcudes/modules/premium/admin-content.php:2059
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/inlcudes/modules/admin-bar.php:438
+#: admin/inlcudes/modules/premium/admin-content.php:178
+msgid "The global search will only search the selected post types."
+msgstr ""
+"De algemene zoekopdracht zoekt alleen naar de geselecteerde berichttypen."
+
+#: admin/inlcudes/modules/admin-theme.php:105
+msgid "Theme"
+msgstr "Thema"
+
+#: admin/inlcudes/modules/admin-theme.php:139
+msgid "Theme Disabled for"
+msgstr "Thema uitgeschakeld voor"
+
+#: admin/inlcudes/modules/admin-bar.php:1109
+msgid "Themes"
+msgstr "Thema's"
+
+#: admin/inlcudes/modules/premium/admin-content.php:761
+msgid "Thumnbnail size"
+msgstr "Thumnbnail grootte"
+
+#: admin/inlcudes/modules/admin-bar.php:615
+#: admin/inlcudes/modules/premium/admin-content.php:1408
+#: admin/inlcudes/modules/premium/admin-content.php:1672
+msgid "Title"
+msgstr "Titel"
+
+#: admin/inlcudes/modules/premium/admin-content.php:678
+msgid "Toggle Folders"
+msgstr "Schakelen tussen mappen"
+
+#: admin/inlcudes/modules/premium/admin-content.php:682
+msgid "Toggle List View"
+msgstr "Wissel de lijstweergave"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:27
+msgid "Total Comments"
+msgstr "Totaal aantal reacties"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:184
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:427
+msgid "Total Orders"
+msgstr "Totaal aantal bestellingen"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:274
+msgid "Total Page Views"
+msgstr "Totaal pagina weergaven"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:26
+msgid "Total Pages"
+msgstr "Totaal aantal pagina's"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:25
+msgid "Total Posts"
+msgstr "Totaal aantal berichten"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:183
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:308
+msgid "Total Sales"
+msgstr "Totaal aantal verkopen"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:275
+#| msgid "Total Website Users"
+msgid "Total Site Users"
+msgstr "Totaal website gebruikers"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:281
+msgid "Traffic Sources"
+msgstr "Verkeersbronnen"
+
+#: admin/inlcudes/modules/admin-bar.php:616
+msgid "Type"
+msgstr "Type"
+
+#: admin/inlcudes/admin/class-settings.php:202
+msgid "Unable to connect account"
+msgstr "Kan account niet verbinden"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1930
+msgid "Unable to delete item"
+msgstr "Kan item niet verwijderen"
+
+#: admin/inlcudes/admin/class-activation.php:214
+msgid "Unable to register admin 2020 at this time"
+msgstr "Kan admin 2020 op dit moment niet registreren"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1860
+#: admin/inlcudes/modules/premium/admin-content.php:2405
+#: admin/inlcudes/modules/premium/admin-content.php:2413
+#: admin/inlcudes/modules/premium/admin-content.php:2422
+msgid "Unable to save attachment"
+msgstr "Unable to save attachment"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:458
+#: admin/inlcudes/modules/premium/admin-overview.php:520
+msgid "Unable to save card preferences"
+msgstr "Kan kaartvoorkeuren niet opslaan"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1810
+msgid "Unable to save item"
+msgstr "Kan item niet opslaan"
+
+#: admin/inlcudes/admin/class-utilities.php:148
+msgid "Unable to save user preferences"
+msgstr "Kan gebruikersvoorkeuren niet opslaan"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:501
+msgid "Uncategorised"
+msgstr "Niet gecategoriseerd"
+
+#: admin/inlcudes/admin/class-activation.php:158
+msgid "Unlock powerful features and speed up your workflow with Admin 2020 Pro"
+msgstr ""
+"Ontgrendel krachtige functies en versnel uw workflow met Admin 2020 Pro"
+
+#: admin/inlcudes/admin/class-update.php:122
+msgid "Update available"
+msgstr "Update beschikbaar"
+
+#: admin/inlcudes/modules/admin-bar.php:1070
+msgid "Updates"
+msgstr "Updates"
+
+#: admin/inlcudes/admin/class-activation.php:161
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: admin/inlcudes/admin/class-settings.php:70
+msgid "Upgrade to Pro"
+msgstr "Upgrade naar Pro"
+
+#: admin/inlcudes/modules/premium/admin-content.php:572
+msgid "Upload"
+msgstr "Upload"
+
+#: admin/inlcudes/modules/premium/admin-content.php:751
+msgid "Upload files"
+msgstr "Upload bestanden"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1729
+msgid "Uploaded"
+msgstr "Geupload"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:180
+msgid "Url"
+msgstr "Url"
+
+#: admin/inlcudes/modules/premium/admin-menu-editor.php:826
+msgid "Use Default"
+msgstr "Gebruik standaard"
+
+#: admin/inlcudes/modules/admin-bar.php:617
+#: admin/inlcudes/modules/admin-bar.php:897
+msgid "User"
+msgstr "Gebruiker"
+
+#: admin/inlcudes/modules/premium/admin-content.php:733
+msgid "Users"
+msgstr "Gebruikers"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:624
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:699
+msgid "Value"
+msgstr "Waarde"
+
+#: admin/inlcudes/admin/class-settings.php:759
+msgid "Version"
+msgstr "Versie"
+
+#: admin/inlcudes/admin/class-settings.php:590
+msgid "Video deleted"
+msgstr "Video verwijderd"
+
+#: admin/inlcudes/admin/class-settings.php:482
+msgid "Video name must be unique"
+msgstr "De videonaam moet uniek zijn"
+
+#: admin/inlcudes/admin/class-settings.php:519
+msgid "Video saved"
+msgstr "Video opgeslagen"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:187
+msgid "Video URL Type"
+msgstr "Video URL Type"
+
+#: admin/inlcudes/modules/admin-bar.php:637
+#: admin/inlcudes/modules/premium/admin-content.php:1372
+msgid "View"
+msgstr "Bekijk"
+
+#: admin/inlcudes/modules/premium/admin-pages.php:261
+msgid "View Admin Page"
+msgstr "Bekijk Admin pagina"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:648
+msgid "View Customer"
+msgstr "Bekijk klant"
+
+#: admin/inlcudes/modules/premium/admin-content.php:1017
+#: admin/inlcudes/modules/premium/admin-content.php:1027
+#: admin/inlcudes/modules/premium/admin-content.php:1095
+#: admin/inlcudes/modules/premium/admin-content.php:1109
+msgid "View details"
+msgstr "Bekijk details"
+
+#: admin/inlcudes/modules/premium/admin-folders.php:265
+msgid "View Folder"
+msgstr "Bekijk map"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:645
+msgid "View Order"
+msgstr "Bekijk bestelling"
+
+#: admin/inlcudes/modules/admin-bar.php:993
+msgid "View Profile"
+msgstr "Bekijk Profiel"
+
+#: admin/inlcudes/modules/admin-bar.php:990
+msgid "View Website"
+msgstr "Bekijk Website"
+
+#: admin/inlcudes/modules/admin-bar.php:1245
+msgid "View website"
+msgstr "Bekijk website"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:190
+msgid "Vimeo embed"
+msgstr "Vimeo embed"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:847
+#: admin/inlcudes/modules/premium/admin-analytics.php:922
+#: admin/inlcudes/modules/premium/admin-analytics.php:1000
+msgid "Visits"
+msgstr "Bezoeken"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:279
+#| msgid "Visits by Country"
+msgid "Visits By Country"
+msgstr "Bezoeken per land"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:280
+#| msgid "Visits by Page"
+msgid "Visits By Page"
+msgstr "Bezoeken per pagina"
+
+#: admin/inlcudes/modules/premium/admin-analytics.php:435
+#: admin/inlcudes/modules/premium/admin-analytics.php:517
+#: admin/inlcudes/modules/premium/admin-analytics.php:601
+#: admin/inlcudes/modules/premium/admin-analytics.php:735
+#: admin/inlcudes/modules/premium/admin-analytics.php:805
+msgid "vs previous"
+msgstr "vs vorige"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:73
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:101
+msgid "WooCommerce Cards"
+msgstr "WooCommerce Kaarten"
+
+#: admin/inlcudes/modules/premium/admin-woocommerce.php:102
+msgid "WooCommerce cards will be disabled for any users or roles you select"
+msgstr ""
+"WooCommerce kaarten worden uitgeschakeld voor alle gebruikers of rollen die "
+"u selecteert"
+
+#: admin/inlcudes/modules/admin-bar.php:1091
+msgid "WordPress"
+msgstr "WordPress"
+
+#: admin/inlcudes/modules/premium/admin-overview-cards.php:352
+msgid "WordPress version"
+msgstr "WordPress versie"
+
+#: admin/inlcudes/modules/premium/admin-content.php:717
+msgid "Year"
+msgstr "Jaar"
+
+#: admin/inlcudes/modules/premium/admin-overview.php:189
+msgid "Youtube embed"
+msgstr "Youtube embed"

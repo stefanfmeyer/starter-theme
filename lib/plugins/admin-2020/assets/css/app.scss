@@ -1,0 +1,24 @@
+// Variable Overwrites
+@import "variables.scss";
+
+:root {
+  --a2020-primary: #{$a2020-primary-color};
+  --a2020-primary-darker: #{darken($a2020-primary-color, 10%)};
+  --a2020-primary-darker-extra: #{darken($a2020-primary-color, 20%)};
+  --a2020-primary-darker-dark: #{darken($a2020-primary-color, 30%)};
+  --a2020-primary-lighter: #{lighten($a2020-primary-color, 10%)};
+  --a2020-primary-wash: rgba(115, 165, 255, 0.21);
+  --a2020-card-padding: 20px;
+}
+
+@import "uikit/mixins-theme.scss";
+
+@import "modules/hooks.scss";
+// Import UIkit.
+@import "uikit/uikit-theme.scss";
+
+@import "modules/common.scss";
+@import "modules/switch.scss";
+@import "modules/dark.scss";
+@import "modules/notification.scss";
+@import "modules/required-mobile.scss";

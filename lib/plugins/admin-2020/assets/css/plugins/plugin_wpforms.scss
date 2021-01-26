@@ -1,0 +1,16 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+.a2020_admin_theme.a2020_night_mode {
+  .wpforms-admin-wrap .page-title,
+  #wpforms-notice-bar,
+  #wpforms-header-temp {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    * {
+      color: $dark;
+    }
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+.a2020_overview_icon {
+  background: var(--a2020-primary-wash);
+  padding: 15px;
+  color: $global-primary-background;
+  border-radius: 8px;
+}
+.a2020_card_drag {
+  cursor: grab;
+}
+
+.a2020_round_icon {
+  background-color: $bordercolor !important;
+  border-radius: 4px !important;
+  padding: 5px !important;
+  width: 17px;
+  height: 17px;
+}
+
+#recent_orders {
+  .uk-label {
+    color: $global-inverse-color;
+  }
+  .uk-label.pending {
+    background: $global-warning-background;
+  }
+  .uk-label.processing {
+    background: $global-primary-background;
+  }
+  .uk-label.completed {
+    background: $global-success-background;
+  }
+  .uk-label.on-hold {
+    background: $global-muted-background;
+    color: #999;
+  }
+}
+#a2020_overview_cards {
+  .uk-table-justify th:first-child,
+  .uk-table-justify td:first-child {
+    max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+.uk-card-primary {
+  background: var(--a2020-primary-darker-dark) !important;
+  .uk-card-header {
+    border-color: $bordercolor !important;
+  }
+  .uk-nav li a {
+    color: #999 !important;
+  }
+  th {
+    color: $global-inverse-color !important;
+  }
+}

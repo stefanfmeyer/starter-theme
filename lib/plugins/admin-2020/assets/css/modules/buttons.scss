@@ -1,0 +1,83 @@
+@import "../variables.scss";
+
+@import "hooks.scss";
+
+.wrap {
+  .page-title-action {
+    @include make-primary-button;
+    float: right;
+    padding: 10px 20px;
+    &:hover,
+    &:focus,
+    &:active {
+      padding: 10px 20px;
+    }
+  }
+}
+.wp-core-ui {
+  .button,
+  .button-secondary {
+    background: $global-inverse-color;
+    color: $global-emphasis-color;
+    border: 1px solid $global-border;
+    transition: all 0.2s ease-in-out;
+    border-radius: 4px;
+    padding: 0 20px;
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: $global-color;
+      color: $global-emphasis-color;
+      background: $global-inverse-color;
+      box-shadow: none;
+      font-weight: normal;
+      border: 1px solid $global-border;
+    }
+  }
+}
+.bulkactions {
+  .button.action {
+    @include make-primary-button;
+    line-height: 1;
+    margin-left: 15px;
+  }
+}
+
+.media-frame-toolbar .media-toolbar {
+  background: $global-muted-background;
+}
+
+.wp-core-ui {
+  .button.button-primary {
+    @include make-primary-button;
+  }
+}
+.uk-button-primary {
+  border-radius: 500px;
+  &:active,
+  &:focus {
+    background: var(--a2020-primary-darker);
+  }
+}
+
+body.a2020_night_mode {
+  .button.action {
+    @include make-primary-button;
+    line-height: 1;
+  }
+  .button.disabled {
+    background-color: $mid-dark !important;
+    color: $global-muted-color !important;
+    border-color: $global-muted-color !important;
+    text-shadow: none;
+  }
+  .media-frame-toolbar .media-toolbar {
+    background: $mid-dark;
+  }
+  .uk-button-primary {
+    &:active,
+    &:focus {
+      background: var(--a2020-primary-darker);
+    }
+  }
+}

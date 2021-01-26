@@ -1,0 +1,29 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .wrap.wordfence p,
+  .wrap.wordfence td,
+  .wrap.wordfence li {
+    color: $dark;
+  }
+  .wrap.wordfence {
+    color: $dark;
+    a {
+      color: #999;
+      &:hover,
+      :active,
+      :focus {
+        color: #888;
+      }
+    }
+  }
+  #wf-onboarding-plugin-overlay,
+  #wf-onboarding-plugin-header,
+  .wrap.wordfence {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  #wf-onboarding-plugin-header ul li {
+    color: $dark;
+  }
+}

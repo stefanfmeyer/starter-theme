@@ -1,0 +1,151 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+.admin2020allFolders,
+#admin2020folderswrap {
+  .a2020_folder_icon {
+    background: $global-inverse-color;
+    border-radius: 4px;
+    border: 1px solid $global-border;
+    &:hover {
+      background: $global-inverse-color;
+    }
+  }
+  .uk-icon-button {
+    border-radius: 4px;
+  }
+  .uk-active > .uk-icon-button.a2020_folder_icon {
+    color: $global-primary-background;
+    background: $global-inverse-color;
+  }
+  a.uk-active {
+    color: $global-primary-background;
+  }
+}
+.folder_icon {
+  border-radius: 4px;
+}
+.folder_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.admin2020folder {
+  float: left;
+  width: 100%;
+  cursor: pointer;
+  padding: 7px 0;
+  box-sizing: border-box;
+}
+#admin2020folderswrap {
+  max-height: 500px;
+  overflow: auto;
+  width: 100%;
+}
+.admin_folders_sub {
+  padding-left: 20px;
+  margin-top: 5px;
+  border-left: 1px solid $global-border;
+  margin-left: 12px;
+  float: left;
+  width: calc(100% - 12px);
+  display: none;
+  box-sizing: border-box;
+}
+
+.admin2020folder {
+  .folder_icon {
+    transform: rotate(90deg);
+    transition: all 0.2s ease-in-out;
+  }
+}
+.admin2020folder.set_as_top {
+  min-height: 50px;
+}
+
+.admin2020folder.sub_open {
+  & > .admin_folders_sub {
+    display: block;
+  }
+
+  & > .uk-grid .uk-flex .folder_icon {
+    transform: rotate(0deg) !important;
+  }
+}
+
+.admin2020folder .uk-active {
+  color: $global-primary-background;
+}
+#admin2020dragHandle {
+  padding: 10px 15px;
+  background: $global-inverse-color;
+  width: auto;
+  border-radius: 30px;
+  float: left;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.folderdrag {
+  border: 2px dashed grey;
+  padding: 5px;
+  border-radius: 4px;
+  width: 100%;
+  cursor: copy;
+}
+.force_hide {
+  display: none !important;
+}
+.a2020_modal_folders {
+  box-sizing: border-box;
+  * {
+    box-sizing: border-box;
+  }
+}
+.admin2020-folder-modal {
+  padding: 20px;
+  border-right: 1px solid $global-border;
+}
+.media-frame.mode-grid,
+.media-frame.mode-grid .attachments-browser .attachments,
+.media-frame.mode-grid .media-frame-content,
+.media-frame.mode-grid .uploader-inline-content {
+  .admin2020-folder-modal {
+    padding: 0;
+    padding-right: 20px;
+    border: none;
+    padding-top: 17px;
+  }
+  .a2020-folder-title {
+    display: none;
+  }
+}
+
+.uk-modal {
+  z-index: 160001;
+}
+
+#admin2020dragHandle {
+  padding: 10px 15px;
+  width: auto;
+  border-radius: 30px;
+  float: left;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.a2020_night_mode {
+  .admin2020allFolders,
+  #admin2020folderswrap {
+    .a2020_folder_icon {
+      background: $mid-dark;
+      border-radius: 4px;
+      border: 1px solid $inverse-global-border;
+      &:hover {
+        background: $mid-dark;
+      }
+    }
+
+    .uk-active > .uk-icon-button.a2020_folder_icon {
+      background: $global-primary-background;
+      color: $global-inverse-color;
+    }
+  }
+}

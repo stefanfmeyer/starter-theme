@@ -1,0 +1,49 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .acf-admin-toolbar,
+  .acf-field-object {
+    filter: contrast(2) invert(1) hue-rotate(180deg);
+    color: $mid-dark;
+    a,
+    h2 {
+      color: $dark;
+    }
+  }
+  #acf-field-group-fields .acf-field-list {
+    background: $dark;
+  }
+  #acf-field-group-fields .acf-field-list .no-fields-message {
+    background: $dark;
+  }
+  .acf-tfoot {
+    background: $dark;
+  }
+  #acf-field-group-fields .acf-field-list-wrap {
+    border: 1px solid $bordercolor;
+    * {
+      border-color: $bordercolor;
+    }
+  }
+  .acf-fields.-left > .acf-field:before {
+    background: $mid-dark;
+    border-color: $bordercolor;
+  }
+  .acf-fields.-left > .acf-field {
+    border-color: $bordercolor;
+  }
+  .acf-table > tbody > tr > th,
+  .acf-table > tbody > tr > td,
+  .acf-table > thead > tr > th,
+  .acf-table > thead > tr > td {
+    background: $mid-dark;
+  }
+  li {
+    color: #fff;
+  }
+  .acf-input-prepend,
+  .acf-input-append {
+    color: $dark;
+  }
+}

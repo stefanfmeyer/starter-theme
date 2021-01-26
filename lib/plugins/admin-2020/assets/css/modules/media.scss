@@ -1,0 +1,180 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+.attachments-browser .media-toolbar {
+  background: transparent;
+}
+.view-switch a {
+  @include make-round-icon-button;
+}
+table.media .column-title .media-icon {
+  img {
+    border-radius: 4px;
+  }
+}
+.media-frame-content {
+  border-top: none !important;
+}
+.media-sidebar {
+  background: transparent;
+}
+.media-modal {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.media-toolbar-primary {
+  button.button-primary {
+    @include make-primary-button;
+  }
+}
+.view-switch a.current:before {
+  color: $global-primary-background;
+}
+.wp-core-ui .attachment-preview {
+  box-shadow: none;
+}
+.media-sidebar {
+  background: transparent !important;
+}
+.media-frame-content {
+  border-color: $global-border;
+}
+.edit-attachment-frame .attachment-info {
+  box-shadow: none;
+  background: $global-inverse-color;
+}
+.edit-attachment-frame .attachment-details {
+  box-shadow: none;
+}
+.media-modal .imgedit-wrap .imgedit-settings {
+  background: $global-inverse-color;
+}
+.media-frame.mode-grid .attachment.details:focus,
+.media-frame.mode-grid .attachment:focus,
+.media-frame.mode-grid .selected.attachment:focus {
+  box-shadow: inset 0 0 2px 3px #f1f1f1, inset 0 0 0 7px $global-primary-background;
+}
+.wp-core-ui .attachment.details .check,
+.wp-core-ui .attachment.selected .check:focus,
+.wp-core-ui .media-frame.mode-grid .attachment.selected .check {
+  border-radius: 50%;
+  background-color: $global-primary-background;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px $global-primary-background;
+}
+.media-frame-title {
+  border-bottom: 1px solid $global-border;
+}
+.edit-media-header {
+  button {
+    border-bottom: 1px solid $global-border !important;
+  }
+}
+.media-frame-toolbar .media-toolbar {
+  bottom: -52px;
+}
+.a2020_night_mode {
+  .view-switch a {
+    @include make-round-icon-button-dark;
+  }
+  .media-frame.mode-grid .attachment.details:focus,
+  .media-frame.mode-grid .attachment:focus,
+  .media-frame.mode-grid .selected.attachment:focus {
+    box-shadow: inset 0 0 2px 3px $dark, inset 0 0 0 7px $global-primary-background;
+  }
+  .wp-core-ui .attachment.details .check,
+  .wp-core-ui .attachment.selected .check:focus,
+  .wp-core-ui .media-frame.mode-grid .attachment.selected .check {
+    border-radius: 50%;
+    background-color: $global-primary-background;
+    box-shadow: 0 0 0 1px $dark, 0 0 0 2px $global-primary-background;
+  }
+  .media-frame.mode-grid .selected.attachment {
+    box-shadow: inset 0 0 0 5px $dark, inset 0 0 0 7px $light-dark;
+  }
+  .media-modal-content {
+    background: #222;
+    * {
+      border-color: $inverse-global-border;
+    }
+    .edit-media-header button {
+      border-bottom: 1px solid $inverse-global-border;
+    }
+  }
+  .media-upload-form .media-item {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+  }
+  .media-item .progress .percent {
+    background: $light-dark;
+  }
+  .media-item .bar {
+    background-color: $global-primary-background;
+  }
+  .edit-attachment-frame .edit-media-header .left,
+  .edit-attachment-frame .edit-media-header .right,
+  .upload-php .media-modal-close {
+    border-color: $inverse-global-border;
+    &:hover {
+      background: $light-dark;
+      color: $global-inverse-color;
+    }
+  }
+  .edit-attachment-frame .edit-media-header .left,
+  .edit-attachment-frame .edit-media-header .right,
+  .media-modal-close {
+    border-color: $inverse-global-border;
+  }
+  .edit-attachment-frame .edit-media-header .left:focus,
+  .edit-attachment-frame .edit-media-header .left:hover,
+  .edit-attachment-frame .edit-media-header .right:focus,
+  .edit-attachment-frame .edit-media-header .right:hover,
+  .media-modal-close:focus,
+  .media-modal-close:hover {
+    background: $light-dark;
+    color: $global-inverse-color;
+  }
+  .edit-attachment-frame .attachment-info {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+  }
+  .media-frame-content {
+    border-color: $inverse-global-border;
+    background: $mid-dark;
+  }
+  .media-modal .imgedit-wrap .imgedit-settings {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+  }
+
+  .media-router {
+    button.media-menu-item {
+      border-bottom: 1px solid darken($inverse-global-border, 5%);
+      color: $global-color;
+    }
+    button.media-menu-item.active {
+      color: $global-inverse-color;
+      background: none;
+    }
+    &::after {
+      border-bottom: 1px solid darken($inverse-global-border, 5%);
+    }
+  }
+  .media-frame-toolbar .media-toolbar,
+  .media-sidebar {
+    border-color: $inverse-global-border;
+  }
+
+  .attachment-info .filename {
+    color: $global-muted-background;
+  }
+  .wp-core-ui .attachment.details {
+    box-shadow: inset 0 0 0 3px $mid-dark, inset 0 0 0 7px $global-primary-background;
+  }
+  .media-modal-close {
+    border: none;
+    &:hover {
+      background: none;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+/////////////////////////////////////////////
+//MOBILE STYLES //
+/////////////////////////////////////////////
+@media only screen and (max-width: 768px) {
+  .wrap {
+    padding: 20px;
+  }
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .subsubsub {
+    width: calc(100% + 20px);
+    white-space: nowrap;
+    overflow: auto;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+  }
+  p.search-box {
+    float: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 90px;
+    right: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: auto;
+  }
+}

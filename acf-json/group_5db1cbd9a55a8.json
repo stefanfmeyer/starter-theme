@@ -1,0 +1,90 @@
+{
+    "key": "group_5db1cbd9a55a8",
+    "title": "FLEX: Hero Extra Fields",
+    "fields": [
+        {
+            "key": "field_5db1cbd9c9064",
+            "label": "Hero decal overlay",
+            "name": "hero_decal_overlay",
+            "type": "image_aspect_ratio_crop",
+            "instructions": "Ratio: 928x928 for best results",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "aspect_ratio_width": 928,
+            "aspect_ratio_height": 928,
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "acfe_validate": "",
+            "acfe_update": "",
+            "crop_type": "aspect_ratio"
+        },
+        {
+            "key": "field_5dbd93b93aff6",
+            "label": "Page down icon",
+            "name": "page_down_icon",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "choices": {
+                "chevron": "Chevron Down",
+                "mouse": "Mouse wheel"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value",
+            "acfe_validate": "",
+            "acfe_update": "",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 11,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_permissions": "",
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1610555246
+}

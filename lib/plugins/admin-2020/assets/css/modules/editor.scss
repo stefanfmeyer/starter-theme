@@ -1,0 +1,279 @@
+@import "../variables.scss";
+
+@import "hooks.scss";
+
+.components-button.is-primary {
+  @include make-primary-button;
+}
+.components-button.is-primary:disabled,
+.components-button.is-primary:disabled:active:enabled,
+.components-button.is-primary[aria-disabled="true"],
+.components-button.is-primary[aria-disabled="true"]:active:enabled,
+.components-button.is-primary[aria-disabled="true"]:enabled {
+  @include make-primary-button;
+}
+.interface-interface-skeleton__body {
+  .components-notice {
+    background: $global-muted-background;
+    margin-bottom: 0 !important;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+.a2020_admin_bar {
+  .interface-interface-skeleton {
+    top: 61px;
+  }
+}
+.a2020_admin_bar {
+  .edit-post-layout .editor-post-publish-panel {
+    top: 61px !important;
+  }
+}
+
+#postdivrich {
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+#wp-content-editor-tools {
+  background: $global-inverse-color;
+}
+.mce-container-body {
+  div.mce-toolbar-grp {
+    background: $global-inverse-color;
+    border-color: $global-border;
+  }
+}
+#wp-content-editor-tools {
+  .insert-media {
+    margin-left: 10px;
+  }
+}
+.a2020_admin_theme {
+  .edit-post-fullscreen-mode-close.has-icon {
+    svg {
+      display: none;
+    }
+    &::after {
+      content: "\f102";
+      font-family: dashicons;
+      font-size: 22px;
+    }
+  }
+}
+.wp-editor-container {
+  .quicktags-toolbar {
+    background: $global-inverse-color;
+    border-color: $global-border;
+  }
+}
+.wp-switch-editor {
+  background: $global-muted-background;
+  border-color: $global-border;
+}
+#postdivrich {
+  .html-active .switch-html,
+  .tmce-active .switch-tmce {
+    background: $global-inverse-color;
+    border-bottom: 1px solid $global-inverse-color;
+  }
+}
+.a2020_night_mode {
+  .interface-interface-skeleton__header {
+    border-color: $inverse-global-border;
+    .edit-post-header {
+      background: $dark;
+    }
+  }
+  .interface-interface-skeleton__sidebar,
+  .interface-interface-skeleton__header {
+  }
+  .components-button {
+    color: $global-muted-color;
+    &:hover {
+      color: $global-inverse-color;
+      opacity: 1;
+    }
+  }
+  .components-button.is-primary {
+    color: $global-inverse-color;
+  }
+  .components-button:disabled,
+  .components-button[aria-disabled="true"] {
+    opacity: 0.4;
+    &:hover {
+      opacity: 0.4;
+      color: $global-muted-color;
+    }
+  }
+  .block-editor-inserter__search {
+    background: $dark;
+    border-color: $inverse-global-border;
+  }
+  .block-editor-inserter__tabs .components-tab-panel__tabs {
+    background: $dark;
+    border-color: $inverse-global-border;
+  }
+  .block-editor-inserter__block-list,
+  .components-tab-panel__tab-content {
+    background: $dark;
+    border-color: $inverse-global-border;
+  }
+  .block-editor-block-types-list__item-icon .block-editor-block-icon {
+    color: $global-inverse-color;
+  }
+  .interface-interface-skeleton__footer {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+    .edit-post-layout__footer {
+      background: none;
+      color: $global-inverse-color;
+      ul li {
+        color: $global-inverse-color;
+      }
+    }
+  }
+  .block-editor-inserter__tips {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+    color: $global-muted-color;
+  }
+  .block-editor-inserter__quick-inserter-results,
+  .components-popover__content {
+    background: $dark;
+    border-color: $inverse-global-border;
+  }
+  .block-editor-inserter__search-input {
+    &:focus {
+      background: $mid-dark;
+    }
+  }
+  .block-editor-inserter__search input[type="search"].block-editor-inserter__search-input:focus {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+  }
+  .interface-complementary-area {
+    background: $dark;
+    color: $global-color;
+  }
+  .components-panel__header.edit-post-sidebar__panel-tabs {
+    background: $dark;
+    border-color: $inverse-global-border;
+  }
+  .components-panel__body {
+    border-color: $inverse-global-border;
+  }
+  .interface-complementary-area > .components-panel {
+    background: $dark;
+    border-color: $inverse-global-border;
+  }
+  .block-editor-block-inspector__no-blocks {
+    background: $dark;
+    color: $inverse-global-color;
+  }
+  .components-panel__body > .components-panel__body-title:hover {
+    background: $mid-dark;
+  }
+  .editor-post-featured-image__toggle {
+    background-color: $light-dark;
+  }
+  .block-editor-block-toolbar .components-toolbar,
+  .block-editor-block-toolbar .components-toolbar-group {
+    border-color: $inverse-global-border;
+  }
+  .edit-post-header-toolbar__block-toolbar .block-editor-block-toolbar {
+    border-color: $inverse-global-border;
+  }
+  .components-popover.block-editor-block-switcher__popover .components-popover__content {
+    background: $mid-dark;
+  }
+  .components-dropdown-menu__menu {
+    background: $dark;
+  }
+
+  #wp-content-editor-tools {
+    background: $mid-dark;
+  }
+  #major-publishing-actions {
+    background: $mid-dark;
+  }
+  .mce-container-body {
+    div.mce-toolbar-grp {
+      background: $dark;
+      border-color: $inverse-global-border;
+    }
+  }
+  #wp-content-editor-tools {
+    .insert-media {
+      margin-left: 10px;
+    }
+  }
+  .wp-editor-container {
+    .quicktags-toolbar {
+      background: $dark;
+      border-color: $inverse-global-border;
+    }
+  }
+  .wp-switch-editor {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+  }
+  #postdivrich {
+    .html-active .switch-html,
+    .tmce-active .switch-tmce {
+      background: $dark;
+      border-bottom: 1px solid $dark;
+    }
+  }
+  #post-status-info {
+    background: $dark;
+    border-color: $inverse-global-border;
+  }
+  .wp-editor-container {
+    border-color: $inverse-global-border;
+  }
+  .wp-editor-expand #wp-content-editor-tools {
+    border-color: $inverse-global-border;
+  }
+  #titlediv input#title {
+    background: $mid-dark;
+  }
+  .editor-post-publish-panel {
+    background: #222;
+    color: $global-inverse-color;
+    border-color: $inverse-global-border;
+    *:not(.DayPicker) {
+      border-color: $inverse-global-border;
+      color: $global-inverse-color;
+    }
+  }
+  .DayPicker {
+    color: #888;
+    * {
+      color: #888;
+    }
+  }
+  .DayPicker,
+  .DayPicker__horizontal {
+    background: $light-dark;
+    .CalendarMonthGrid {
+      background: $light-dark;
+    }
+    .CalendarMonth {
+      background: $light-dark;
+    }
+    .CalendarDay__default {
+      background: $mid-dark;
+    }
+    .components-datetime__date .CalendarDay__selected {
+      background: $global-primary-background;
+    }
+  }
+  .editor-post-publish-panel__prepublish .components-panel__body {
+    background: #222;
+  }
+  .editor-post-publish-panel__header {
+    background: none;
+  }
+}

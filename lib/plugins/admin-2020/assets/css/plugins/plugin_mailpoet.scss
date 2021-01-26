@@ -1,0 +1,36 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .mailpoet-newsletter-types {
+    filter: invert(1) hue-rotate(180deg);
+    color: $mid-dark;
+    * {
+      color: $dark;
+    }
+    .mailpoet-newsletter-type-image {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  .mailpoet-forms-listing {
+    filter: invert(1) hue-rotate(180deg) contrast(1.5);
+  }
+  .mailpoet-top-bar {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  .mailpoet-template-selection-header {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  .mailpoet-form-template {
+    filter: invert(1) hue-rotate(180deg);
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  .mailpoet-tabs {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  .mailpoet-listing {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}

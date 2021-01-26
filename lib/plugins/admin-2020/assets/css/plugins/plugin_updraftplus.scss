@@ -1,0 +1,27 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  #breeze-tabs-content .tab-child {
+    filter: contrast(2) invert(1) hue-rotate(180deg);
+    color: $mid-dark;
+    * {
+      color: $dark;
+    }
+  }
+  .updraft_next_scheduled_backups_wrapper > div {
+    background: $dark;
+  }
+  .updraft_time_now {
+    background: $mid-dark;
+  }
+  #updraft_lastlogmessagerow > div {
+    background: $dark;
+  }
+  .updraft_migrate_widget_module_content {
+    background: $dark;
+  }
+  .expertmode .advanced_settings_container .advanced_settings_menu .advanced_tools_button {
+    color: #fff;
+  }
+}

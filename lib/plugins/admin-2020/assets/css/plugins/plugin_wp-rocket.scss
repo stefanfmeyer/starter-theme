@@ -1,0 +1,22 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+.a2020_admin_theme.a2020_night_mode {
+  .wpr-Content,
+  .wpr-Sidebar-notice {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    * {
+      color: $dark;
+    }
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  .wpr-menuItem:hover,
+  .wpr-menuItem.isActive {
+    background: $mid-dark;
+  }
+  .wpr-Sidebar-info h4 {
+    color: $dark;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .wizard-wrapper {
+    filter: invert(1) hue-rotate(180deg);
+    h2 {
+      color: $dark;
+    }
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+}

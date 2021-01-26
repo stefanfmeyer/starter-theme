@@ -1,0 +1,29 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme {
+  .litespeed-wrap {
+    margin: 10px 20px 0 20px;
+    * {
+      border-color: $bordercolor;
+    }
+  }
+  .litespeed-postbox {
+    * {
+      border-color: $bordercolor;
+    }
+  }
+}
+
+.a2020_admin_theme.a2020_night_mode {
+  .inside.litespeed-postbox-footer {
+    background: $mid-dark;
+  }
+  .litespeed-body {
+    filter: invert(1) hue-rotate(180deg) contrast(1.5);
+    color: $dark;
+    * {
+      color: $dark;
+    }
+  }
+}

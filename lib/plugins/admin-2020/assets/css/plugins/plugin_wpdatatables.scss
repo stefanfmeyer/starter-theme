@@ -1,0 +1,10 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+.a2020_admin_theme.wpdt-c {
+  .a2020-admin-bar {
+    display: flex;
+  }
+  .wdt-datatables-admin-wrap {
+    margin: 0;
+  }
+}

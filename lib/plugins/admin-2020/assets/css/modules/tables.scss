@@ -1,0 +1,242 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+.bulkactions {
+  display: none;
+}
+.tablenav.top .alignleft.actions.bulkactions {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  left: 0;
+  box-sizing: border-box;
+  background: $global-inverse-color;
+  border-top: 1px solid $bordercolor;
+  display: none;
+  z-index: 9;
+}
+.tablenav.top .alignleft.actions.bulkactions.a2020_flex {
+  display: flex;
+}
+.tablenav .one-page .displaying-num {
+  @include make-label;
+}
+
+.row-actions {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+tr:hover {
+  .row-actions {
+    opacity: 1;
+  }
+}
+
+#wpwrap .wp-list-table,
+table.widefat {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  box-shadow: $global-small-box-shadow;
+  border-radius: 4px;
+  border: none;
+  background: $global-inverse-color;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  thead,
+  tfoot {
+    th,
+    td {
+      border: none;
+      a {
+        padding-left: 0;
+        color: $global-primary-background;
+      }
+    }
+  }
+  tr {
+    background: none;
+    border: none;
+  }
+  td,
+  th {
+    padding: 15px;
+    .post-state {
+      @include make-label;
+      margin-right: 5px;
+      font-weight: 500;
+    }
+  }
+  #cb-select-all- {
+    margin-left: 0;
+  }
+
+  & > tr:not(:first-child),
+  & > :not(:first-child) > tr,
+  & > :first-child > tr:not(:first-child) {
+    border-top: 1px solid $bordercolor;
+  }
+
+  .avatar {
+    border-radius: 50%;
+  }
+  .row-actions {
+    .edit a {
+      color: $global-primary-background;
+    }
+    .editinline {
+      color: $global-success-background;
+    }
+    .trash a {
+      color: $global-danger-background;
+    }
+  }
+}
+
+#wpwrap {
+  .wp-list-table.plugins {
+    .tr,
+    td,
+    th {
+      box-shadow: none;
+    }
+    .plugin-update-tr.active td,
+    .active th.check-column {
+      border-left: none;
+    }
+    .plugin-description {
+      p {
+        color: $global-muted-color;
+      }
+    }
+    .row-actions {
+      opacity: 0;
+      transition: all 0.2s ease-in-out;
+    }
+    tbody tr:hover {
+      .row-actions {
+        opacity: 1;
+      }
+    }
+    tbody tr .plugin-title strong {
+      position: relative;
+      padding-left: 20px;
+      &:after {
+        content: " ";
+        width: 10px;
+        height: 10px;
+        background: $global-warning-background;
+        position: absolute;
+        border-radius: 50%;
+        left: 0;
+        top: 5px;
+      }
+    }
+    tbody tr.active .plugin-title strong {
+      &:after {
+        background: $global-success-background;
+      }
+    }
+
+    tbody tr.inactive .plugin-title strong {
+      color: $global-muted-color;
+    }
+    .active {
+      td,
+      th {
+        background: transparent;
+      }
+    }
+    tr.plugin-update-tr {
+      border-top: none;
+      border: none;
+      td.plugin-update {
+        padding: 0;
+        border: none;
+        .notice {
+          p {
+            color: $global-muted-color;
+          }
+          box-shadow: none;
+          border: none !important;
+          border-radius: 0;
+          margin-bottom: 0 !important;
+          background: var(--a2020-primary-wash);
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.postbox {
+  .form-table {
+    box-shadow: none;
+    padding: 0;
+    background: none;
+  }
+}
+
+body.a2020_night_mode {
+  .tablenav .one-page .displaying-num {
+    background-color: $mid-dark;
+    border: 1px solid $inverse-global-border;
+    color: $global-inverse-color;
+    &:focus,
+    &:active {
+      border-color: $global-inverse-color;
+    }
+  }
+
+  .uk-table-striped > tr:nth-of-type(odd),
+  .uk-table-striped tbody tr:nth-of-type(odd) {
+    background: $dark;
+    border-color: $bordercolor;
+  }
+  #wpwrap .wp-list-table {
+    background-color: $mid-dark;
+    color: $global-muted-color;
+    td,
+    th {
+      color: $global-muted-color;
+    }
+
+    & > tr:not(:first-child),
+    & > :not(:first-child) > tr,
+    & > :first-child > tr:not(:first-child) {
+      border-top: 1px solid $inverse-global-border;
+    }
+
+    tbody tr.active .plugin-title strong {
+      color: $global-inverse-color;
+    }
+
+    tr.plugin-update-tr {
+      border-top: none;
+      border: none;
+      td.plugin-update {
+        border: none;
+        .notice {
+          box-shadow: none;
+          border: none !important;
+          background: $light-dark;
+          p {
+            color: $inverse-global-inverse-color;
+          }
+          a {
+            color: $global-primary-background;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+  .tablenav.top .alignleft.actions.bulkactions {
+    background: #111;
+  }
+}

@@ -1,0 +1,33 @@
+@import "../variables.scss";
+
+#admin2020_notification_center {
+  #login .message,
+  .error,
+  .is-dismissible,
+  .notice,
+  .update-nag,
+  .updated {
+    background: $global-emphasis-color;
+  }
+  .updated {
+    border-left: 4px solid $global-success-background !important;
+  }
+
+  .error {
+    border-left: 4px solid $global-danger-background !important;
+  }
+  .warning {
+    border-left: 4px solid $global-warning-background !important;
+  }
+}
+
+.a2020_night_mode {
+  #login .message,
+  .error,
+  .is-dismissible,
+  .notice,
+  .update-nag,
+  .updated {
+    background: $mid-dark;
+  }
+}

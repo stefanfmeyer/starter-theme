@@ -1,0 +1,34 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .pro-features-header {
+    filter: invert(1) hue-rotate(180deg);
+    color: $mid-dark;
+    border-color: $bordercolor;
+    * {
+      color: $dark;
+    }
+  }
+  .viz-feature-features {
+    filter: invert(1) hue-rotate(180deg);
+    color: $mid-dark;
+    * {
+      color: $dark;
+    }
+  }
+  .visualizer-chart {
+    filter: invert(1) hue-rotate(180deg);
+    color: $mid-dark;
+    * {
+      color: $dark;
+    }
+  }
+  #visualizer-sidebar {
+    filter: invert(1) hue-rotate(180deg);
+    *,
+    h3 {
+      color: $dark;
+    }
+  }
+}

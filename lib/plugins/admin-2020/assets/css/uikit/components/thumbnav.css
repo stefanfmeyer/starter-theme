@@ -1,0 +1,1 @@
+.uk-thumbnav{display:flex;flex-wrap:wrap;margin:0;padding:0;list-style:none;margin-left:-15px}.uk-thumbnav>*{padding-left:15px}.uk-thumbnav>*>*{display:inline-block}.uk-thumbnav>*>:hover,.uk-thumbnav>*>:focus{outline:none}.uk-thumbnav-vertical{flex-direction:column;margin-left:0;margin-top:-15px}.uk-thumbnav-vertical>*{padding-left:0;padding-top:15px}

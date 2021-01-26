@@ -1,0 +1,1575 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Admin 2020\n"
+"Language: nb\n"
+
+#: admin/class-activation.php:128
+msgid "Admin 2020 is not activated"
+msgstr "Admin 2020 er ikke aktivert"
+
+#: admin/class-activation.php:129
+msgid "Please add a valid licence to activate"
+msgstr "Vennligst legg til en gyldig lisensnøkkel for å aktivere"
+
+#: admin/class-activation.php:132
+msgid "Enter your licence key"
+msgstr "Skriv inn din lisensnøkkel"
+
+#: admin/class-activation.php:135
+msgid "Activate"
+msgstr "Aktiver"
+
+#: admin/class-activation.php:157
+msgid "Supercharge your admin with Admin 2020 Pro"
+msgstr "Oppfrisk admin-panelet med Admin 2020 Pro"
+
+#: admin/class-activation.php:158
+msgid "Unlock powerful features and speed up your workflow with Admin 2020 Pro"
+msgstr "Lås opp kraftfulle funksjoner og få fart på arbeidet med Admin 2020 Pro"
+
+#: admin/class-activation.php:161
+msgid "Upgrade"
+msgstr "Oppdater"
+
+#: admin/class-activation.php:162
+msgid "Dimiss"
+msgstr "Avvis"
+
+#: admin/class-activation.php:188
+msgid "Admin 2020 succesfully activated"
+msgstr "Admin 2020 vellykket aktivert"
+
+#: admin/class-activation.php:214
+msgid "Unable to register admin 2020 at this time"
+msgstr "Ikke mulig å registrere Admin 2020 på dette tidspunktet"
+
+#: admin/class-activation.php:221
+msgid "No licence key provided"
+msgstr "Ingen lisensnøkkel gitt"
+
+#: admin/class-settings.php:67 modules/premium/admin-content.php:755
+#: modules/premium/admin-content.php:1392
+#: modules/premium/admin-menu-editor.php:559
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: admin/class-settings.php:70
+msgid "Upgrade to Pro"
+msgstr "Oppgrader til Pro"
+
+#: admin/class-settings.php:202
+msgid "Unable to connect account"
+msgstr "Ute av stand til å koble til konto"
+
+#: admin/class-settings.php:215
+msgid "Analytics account connected"
+msgstr "Analysekonto koblet til"
+
+#: admin/class-settings.php:249
+msgid "Analytics account removed"
+msgstr "Analysekonto fjernet"
+
+#: admin/class-settings.php:287
+msgid "Licence removed"
+msgstr "Lisens fjernet"
+
+#: admin/class-settings.php:319 admin/class-settings.php:368
+#: modules/premium/admin-menu-editor.php:1468
+msgid "No options supplied to save"
+msgstr "Ingen endringer å lagre"
+
+#: admin/class-settings.php:338
+msgid "Modules saved"
+msgstr "Moduler lagret"
+
+#: admin/class-settings.php:391
+msgid "Settings saved. You may need to refresh for changes to take effect."
+msgstr "Innstillinger lagret. Du må kanskje oppdatere for at endringene skal bli synlige"
+
+#: admin/class-settings.php:394 admin/class-settings.php:523
+#: admin/class-settings.php:594 modules/premium/admin-folders.php:826
+#: modules/premium/admin-folders.php:854 modules/premium/admin-folders.php:970
+#: modules/premium/admin-menu-editor.php:1481
+#: modules/premium/admin-menu-editor.php:1512
+msgid "Something went wrong"
+msgstr "Noe gikk galt"
+
+#: admin/class-settings.php:450
+msgid "Settings Imported"
+msgstr "Innstillinger Importert"
+
+#: admin/class-settings.php:471
+msgid "No video supplied to save"
+msgstr "Ingen videoer satt for å lagres"
+
+#: admin/class-settings.php:482
+msgid "Video name must be unique"
+msgstr "Navnet på videoen må være unikt"
+
+#: admin/class-settings.php:519
+msgid "Video saved"
+msgstr "Video lagret"
+
+#: admin/class-settings.php:547
+msgid "No video supplied to delete"
+msgstr "Ingen video valgt for å slette"
+
+#: admin/class-settings.php:590
+msgid "Video deleted"
+msgstr "Video slettet"
+
+#: admin/class-settings.php:759
+msgid "Version"
+msgstr "Versjon"
+
+#: admin/class-settings.php:763
+msgid "Exports Admin 2020 settings to JSON file"
+msgstr "Eksporter Admin 2020 Innstillinger til en JSON fil"
+
+#: admin/class-settings.php:764
+msgid "Export"
+msgstr "Eksporter"
+
+#: admin/class-settings.php:774
+msgid "Imports Admin 2020 settings to from JSON"
+msgstr "Importer Admin 2020 innstillinger fra JSON"
+
+#: admin/class-settings.php:774
+msgid "Import"
+msgstr "Importer"
+
+#: admin/class-settings.php:798 admin/class-settings.php:886
+msgid "Modules"
+msgstr "Moduler"
+
+#: admin/class-settings.php:848 admin/class-settings.php:973
+#: modules/premium/admin-content.php:1510
+#: modules/premium/admin-content.php:1763 modules/premium/admin-folders.php:764
+#: modules/premium/admin-menu-editor.php:304
+#: modules/premium/admin-overview.php:745
+msgid "Save"
+msgstr "Lagre"
+
+#: admin/class-settings.php:894
+msgid "Licence"
+msgstr "Lisens"
+
+#: admin/class-settings.php:895
+msgid "Admin 2020 licence is active. To remove licence or change licence click remove."
+msgstr "Admin 2020 lisens er aktivert. For å fjerne lisensen eller endre lisens klikk slett"
+
+#: admin/class-settings.php:898
+msgid "Remove"
+msgstr "Slett"
+
+#: admin/class-settings.php:925
+msgid "Override Subsite Settings?"
+msgstr "Overstyr subside innstillinger"
+
+#: admin/class-settings.php:926
+msgid "If this is enabled then all the settings here will be applied to your subsites and they will not be able to be changed from a subsite."
+msgstr "Dersom denne er aktivert vil alle innstiller her være lagt til for dine subsider og de vil ikke være mulig å endre fra subsidene"
+
+#: admin/class-update.php:58
+msgid "Check for updates"
+msgstr "Sjekk for oppdateringer"
+
+#: admin/class-update.php:122
+msgid "Update available"
+msgstr "Oppdatering tilgjengelig"
+
+#: admin/class-update.php:128
+msgid "No Updates available"
+msgstr "Ingen oppdateringer tilgjengelig"
+
+#: admin/class-utilities.php:125
+msgid "No preferences supplied to save"
+msgstr "Ingen preferanser endret for å lagre"
+
+#: admin/class-utilities.php:145
+msgid "Preferences saved"
+msgstr "Preferanser lagret"
+
+#: admin/class-utilities.php:148
+msgid "Unable to save user preferences"
+msgstr "Ikke mulig å lagre bruker preferanser"
+
+#: modules/admin-bar.php:123
+msgid "Admin Bar"
+msgstr "Admin Bar"
+
+#: modules/admin-bar.php:125
+msgid "Creates new admin bar, adds user off canvas menu and builds global search"
+msgstr "Lager en ny admin bar, legger til sidemeny for bruker, og bygger globalt søkeverktøy"
+
+#: modules/admin-bar.php:177 modules/admin-login.php:106
+msgid "Admin Logo"
+msgstr "Admin Logo"
+
+#: modules/admin-bar.php:178
+msgid "Sets the logo for the admin bar and also the logo for the login page if login styles is enabled. If no logo is set for dark mode then then the light logo will be used."
+msgstr "Setter logoen for admin bar og logoen for innlogginssiden, dersom innlogginss-stiler er aktivert. Dersom ikke noen logo er satt for nattmodus, vil dagmodus logo bli brukt."
+
+#: modules/admin-bar.php:181 modules/admin-bar.php:211
+#: modules/admin-menu.php:122 modules/admin-theme.php:204
+msgid "Light"
+msgstr "Dagmodus"
+
+#: modules/admin-bar.php:186
+msgid "Light Logo Url"
+msgstr "Dagmodus Logo URL"
+
+#: modules/admin-bar.php:189
+msgid "Select Light Logo"
+msgstr "Velg Dagmodus Logo"
+
+#: modules/admin-bar.php:193 modules/admin-bar.php:229
+#: modules/admin-menu.php:140 modules/admin-theme.php:222
+msgid "Dark"
+msgstr "Nattmodus"
+
+#: modules/admin-bar.php:198
+msgid "Dark Logo Url"
+msgstr "Nattmodus Logo URL"
+
+#: modules/admin-bar.php:201
+msgid "Select Dark Logo"
+msgstr "Velg Nattmodus Logo"
+
+#: modules/admin-bar.php:207 modules/admin-menu.php:118
+#: modules/admin-theme.php:200
+msgid "Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: modules/admin-bar.php:208
+msgid "Sets a background colour for the admin bar."
+msgstr "Setter en bakgrunnsfarge for admin bar"
+
+#: modules/admin-bar.php:252
+msgid "Admin Bar Disabled for"
+msgstr "Admin Bar deaktivert for"
+
+#: modules/admin-bar.php:253
+msgid "Admin 2020 admin bar will be disabled for any users or roles you select"
+msgstr "Admin 2020 admin bar vil bli deaktivert for de brukerne og rollene du velger"
+
+#: modules/admin-bar.php:266 modules/admin-menu.php:178
+#: modules/admin-theme.php:154 modules/premium/admin-advanced.php:140
+#: modules/premium/admin-analytics.php:111
+#: modules/premium/admin-content.php:132 modules/premium/admin-folders.php:163
+#: modules/premium/admin-menu-editor.php:140
+#: modules/premium/admin-menu-editor.php:441
+#: modules/premium/admin-menu-editor.php:588
+#: modules/premium/admin-menu-editor.php:745
+#: modules/premium/admin-overview.php:118 modules/premium/admin-pages.php:141
+#: modules/premium/admin-woocommerce.php:116
+msgid "Super Admin"
+msgstr "Super Admin"
+
+#: modules/admin-bar.php:297 modules/admin-menu.php:208
+#: modules/admin-theme.php:185 modules/premium/admin-advanced.php:171
+#: modules/premium/admin-analytics.php:142
+#: modules/premium/admin-content.php:163 modules/premium/admin-folders.php:194
+#: modules/premium/admin-menu-editor.php:171
+#: modules/premium/admin-menu-editor.php:472
+#: modules/premium/admin-menu-editor.php:619
+#: modules/premium/admin-menu-editor.php:777
+#: modules/premium/admin-overview.php:149 modules/premium/admin-pages.php:172
+#: modules/premium/admin-woocommerce.php:148
+msgid "Select roles or users"
+msgstr "Velg roller eller brukere"
+
+#: modules/admin-bar.php:312 modules/admin-menu.php:223
+msgid "Disable Search"
+msgstr "Deaktiver Søk"
+
+#: modules/admin-bar.php:313
+msgid "Disables search icon and global search function from admin bar"
+msgstr "Deaktiverer søkeikon og global søkefunksjon fra admin bar"
+
+#: modules/admin-bar.php:332
+msgid "Disable Create Button"
+msgstr "Deaktiver Legg Til knapp"
+
+#: modules/admin-bar.php:333
+msgid "Disables the 'new' button in the admin bar"
+msgstr "Deaktiverer 'Legg Til' knappen på admin bar"
+
+#: modules/admin-bar.php:353
+msgid "Disable View Website Button"
+msgstr "Deaktiver Vis Nettside Knappen"
+
+#: modules/admin-bar.php:354
+msgid "Disables the view website link button in the admin bar"
+msgstr "Deaktiverer vis nettside link knappen på admin bar"
+
+#: modules/admin-bar.php:374
+msgid "Set Dark Mode as Default"
+msgstr "Sett Nattmodus som standard"
+
+#: modules/admin-bar.php:375
+msgid "If enabled, dark mode will default to true for users that haven't set a preference."
+msgstr "Hvis aktivert, vil nattmodus være standard for brukere som ikke har angitt en preferanse."
+
+#: modules/admin-bar.php:395
+msgid "Load admin 2020 bar on front end"
+msgstr "Last admin 2020 bar på frontenden"
+
+#: modules/admin-bar.php:396
+msgid "If enabled, admin 2020 admin bar will be load on the front end. Please note, this will not work on all themes and styling will vary."
+msgstr "Hvis aktivert, vil admin 2020 admin bar lastes på frontend. Vær oppmerksom på at dette ikke fungerer på alle temaer, og styling vil variere."
+
+#: modules/admin-bar.php:416
+msgid "Hide admin bar on front end"
+msgstr "Skjul admin bar på frontenden"
+
+#: modules/admin-bar.php:417
+msgid "If enabled, front end admin bar will not load."
+msgstr "Hvis aktivert, lastes ikke frontend admin bar inn."
+
+#: modules/admin-bar.php:437 modules/premium/admin-content.php:177
+msgid "Post Types available in Search"
+msgstr "Innleggstyper tilgjengelig i Søk"
+
+#: modules/admin-bar.php:438 modules/premium/admin-content.php:178
+msgid "The global search will only search the selected post types."
+msgstr "Det globale søket vil bare søke i de valgte posttypene."
+
+#: modules/admin-bar.php:462 modules/admin-bar.php:502
+#: modules/premium/admin-content.php:202
+msgid "Select Post Types"
+msgstr "Velg Innleggstyper"
+
+#: modules/admin-bar.php:477
+msgid "Post Types available in create button (new)"
+msgstr "Innleggstyper tilgjengelig i Opprett-knapp (ny)"
+
+#: modules/admin-bar.php:478
+msgid "Only the selected post types will show up in the create dropdown."
+msgstr "Bare de valgte posttypene vises i rullegardinmenyen Opprett."
+
+#: modules/admin-bar.php:611
+msgid "items found for"
+msgstr "gjenstander funnet for"
+
+#: modules/admin-bar.php:615 modules/premium/admin-content.php:1408
+#: modules/premium/admin-content.php:1672
+msgid "Title"
+msgstr "Tittel"
+
+#: modules/admin-bar.php:616 modules/premium/admin-overview.php:206
+msgid "Type"
+msgstr "Type"
+
+#: modules/admin-bar.php:617 modules/admin-bar.php:897
+msgid "User"
+msgstr "Bruker"
+
+#: modules/admin-bar.php:618
+msgid "Date"
+msgstr "Dato"
+
+#: modules/admin-bar.php:633 modules/premium/admin-content.php:1369
+#: modules/premium/admin-content.php:1655
+msgid "Edit"
+msgstr "Rediger"
+
+#: modules/admin-bar.php:637 modules/premium/admin-content.php:1372
+msgid "View"
+msgstr "Vis"
+
+#: modules/admin-bar.php:828
+msgid "Search website"
+msgstr "Søk på nettsiden"
+
+#: modules/admin-bar.php:836 modules/admin-bar.php:846
+#: modules/admin-menu.php:417 modules/premium/admin-content.php:688
+msgid "Search"
+msgstr "Søk"
+
+#: modules/admin-bar.php:855
+msgid "Post Types"
+msgstr "Innleggstyper"
+
+#: modules/admin-bar.php:876 modules/premium/admin-content.php:1394
+#: modules/premium/admin-content.php:1480
+msgid "Categories"
+msgstr "Kategorier"
+
+#: modules/admin-bar.php:921
+msgid "Start searching to see results"
+msgstr "Begynn å søke for å se resultater"
+
+#: modules/admin-bar.php:981 modules/premium/admin-overview.php:69
+#: modules/premium/admin-overview.php:293
+msgid "Overview"
+msgstr "Oversikt"
+
+#: modules/admin-bar.php:982
+msgid "Preferences"
+msgstr "Preferanser"
+
+#: modules/admin-bar.php:990
+msgid "View Website"
+msgstr "Vis Nettside"
+
+#: modules/admin-bar.php:993
+msgid "View Profile"
+msgstr "Vis Profil"
+
+#: modules/admin-bar.php:1006 modules/admin-login.php:126
+msgid "Dark Mode"
+msgstr "Nattmodus"
+
+#: modules/admin-bar.php:1017 modules/admin-bar.php:1253
+msgid "Show screen options"
+msgstr "Vis skjermalternativer"
+
+#: modules/admin-bar.php:1028
+msgid "Hide WP links"
+msgstr "Gjem WP lenker"
+
+#: modules/admin-bar.php:1045
+msgid "Logout"
+msgstr "Logg ut"
+
+#: modules/admin-bar.php:1070
+msgid "Updates"
+msgstr "Oppdateringer"
+
+#: modules/admin-bar.php:1074
+msgid "Everything is up to date"
+msgstr "Alt er oppdatert"
+
+#: modules/admin-bar.php:1083
+msgid "All Updates"
+msgstr "Alle Oppdateringer"
+
+#: modules/admin-bar.php:1091
+msgid "WordPress"
+msgstr "WordPress"
+
+#: modules/admin-bar.php:1100 modules/premium/admin-overview-cards.php:360
+msgid "Plugins"
+msgstr "Utvidelser"
+
+#: modules/admin-bar.php:1109
+msgid "Themes"
+msgstr "Temaer"
+
+#: modules/admin-bar.php:1123
+msgid "Notifications"
+msgstr "Varsler"
+
+#: modules/admin-bar.php:1161 modules/admin-bar.php:1166
+msgid "Toggle menu"
+msgstr "Bytt meny"
+
+#: modules/admin-bar.php:1245
+msgid "View website"
+msgstr "Vis nettside"
+
+#: modules/admin-bar.php:1261
+msgid "new"
+msgstr "ny"
+
+#: modules/admin-login.php:81
+msgid "Login"
+msgstr "Logg inn"
+
+#: modules/admin-login.php:83
+msgid "Styles the admin login page."
+msgstr "Endrer utseende på admin innlogginssiden"
+
+#: modules/admin-login.php:107
+msgid "Sets an optional background image for the login page."
+msgstr "Angir et valgfritt bakgrunnsbilde for påloggingssiden."
+
+#: modules/admin-login.php:114
+msgid "Login background url"
+msgstr "URL for påloggingsbakgrunn"
+
+#: modules/admin-login.php:117
+msgid "Select login background"
+msgstr "Velg påloggingsbakgrunn"
+
+#: modules/admin-login.php:127
+msgid "Login style will match dark theme if enabled"
+msgstr "Påloggingsstil vil matche nattmodus hvis aktivert"
+
+#: modules/admin-login.php:147
+msgid "Redirect to overview page"
+msgstr "Viderekoble til oversiktsside"
+
+#: modules/admin-login.php:148
+msgid "If enabled, after logging in users will be redirected to the overview page"
+msgstr "Hvis aktivert, vil brukere etter pålogging bli omdirigert til oversiktssiden"
+
+#: modules/admin-menu.php:78
+msgid "Menu"
+msgstr "Meny"
+
+#: modules/admin-menu.php:80
+msgid "Creates new admin menu."
+msgstr "Oppretter en ny admin meny"
+
+#: modules/admin-menu.php:119
+msgid "Sets a background colour for the admin menu."
+msgstr "Angir en bakgrunnsfarge for admin-menyen."
+
+#: modules/admin-menu.php:163
+msgid "Menu Disabled for"
+msgstr "Meny Deaktivert for"
+
+#: modules/admin-menu.php:164
+msgid "Admin 2020 menu will be disabled for any users or roles you select"
+msgstr "Admin 2020 menyen vil bli deaktivert for de brukerene eller rollene du velger"
+
+#: modules/admin-menu.php:224
+msgid "Disables admin menu search"
+msgstr "Deaktiver søk i admin-menyen"
+
+#: modules/admin-menu.php:244
+msgid "Set collapsed menu as default"
+msgstr "Sett skjult meny som standard"
+
+#: modules/admin-menu.php:245
+msgid "If enabled, the menu will default to the shrunk menu for users that haven't set a preference."
+msgstr "Hvis aktivert, vil menyen som standard være den krympede menyen for brukere som ikke har angitt en preferanse."
+
+#: modules/admin-theme.php:105
+msgid "Theme"
+msgstr "Tema"
+
+#: modules/admin-theme.php:107
+msgid "Creates the main theme for admin 2020. Disables default WordPress theme and applies admin 2020."
+msgstr "Oppretter hovedtemaet for admin 2020. Deaktiverer standard WordPress-tema og bruker admin 2020."
+
+#: modules/admin-theme.php:139
+msgid "Theme Disabled for"
+msgstr "Tema Deaktivert for"
+
+#: modules/admin-theme.php:140
+msgid "Admin 2020 theme will be disabled for any users or roles you select"
+msgstr "Admin 2020 Temaet vil bli deaktivert for de brukerene eller rollene du velger"
+
+#: modules/admin-theme.php:201
+msgid "Sets a background colour for admin pages."
+msgstr "Angir en bakgrunnsfarge for admin-sider."
+
+#: modules/admin-theme.php:242
+msgid "Primary Color"
+msgstr "Hoved Farge"
+
+#: modules/admin-theme.php:243
+msgid "Sets the primary color throughout Admin 2020."
+msgstr "Angir hovedfargen i hele Admin 2020."
+
+#: modules/admin-theme.php:282
+msgid "Padding"
+msgstr "Padding"
+
+#: modules/admin-theme.php:283
+msgid "Sets padding (in px) for cards, metaboxes and other items in the UI."
+msgstr "Angir padding (i px) for kort, metabokser og andre gjenstander i brukergrensesnittet."
+
+#: modules/premium/admin-advanced.php:93
+msgid "Advanced"
+msgstr "Avansert"
+
+#: modules/premium/admin-advanced.php:95
+msgid "Creates options for adding customm CSS and JS."
+msgstr "Oppretter alternativer for å legge til customm CSS og JS."
+
+#: modules/premium/admin-advanced.php:125
+msgid "Advanced Disabled for"
+msgstr "Avansert Deaktivert for"
+
+#: modules/premium/admin-advanced.php:126
+msgid "Custom CSS and JS will not load for the selected roles and users."
+msgstr "Tilpasset CSS og JS lastes ikke inn for de valgte rollene og brukerne."
+
+#: modules/premium/admin-advanced.php:186
+msgid "Custom CSS"
+msgstr "Tilpasset CSS"
+
+#: modules/premium/admin-advanced.php:187
+msgid "CSS added here will be loaded on every admin page."
+msgstr "CSS lagt til her vil bli lastet på hver admin-side."
+
+#: modules/premium/admin-advanced.php:215
+msgid "Custom JS"
+msgstr "Egendefinert JS"
+
+#: modules/premium/admin-advanced.php:216
+msgid "JS added here will be loaded on every admin page."
+msgstr "JS lagt til her vil bli lastet på hver admin-side."
+
+#: modules/premium/admin-analytics.php:69
+msgid "Analytics"
+msgstr "Analyse"
+
+#: modules/premium/admin-analytics.php:71
+msgid "Creates the google analytics cards for the overview page."
+msgstr "Oppretter Google Analytics-kortene for oversiktssiden."
+
+#: modules/premium/admin-analytics.php:96
+msgid "Google Analytics Disabled for"
+msgstr "Google Analytics deaktivert for"
+
+#: modules/premium/admin-analytics.php:97
+msgid "Google Analytics will be disabled for any users or roles you select"
+msgstr "Google Analytics blir deaktivert for alle brukere eller roller du velger"
+
+#: modules/premium/admin-analytics.php:159
+msgid "Analytics account"
+msgstr "Analyse konto"
+
+#: modules/premium/admin-analytics.php:160
+msgid "Select the google analytics account you wish to use for displaying data on the overview page"
+msgstr "Velg Google Analytics-kontoen du vil bruke til å vise data på oversiktssiden"
+
+#: modules/premium/admin-analytics.php:176
+msgid "Remove Account"
+msgstr "Fjern konto"
+
+#: modules/premium/admin-analytics.php:274
+msgid "Total Page Views"
+msgstr "Totalt Side Visninger"
+
+#: modules/premium/admin-analytics.php:275
+msgid "Total Site Users"
+msgstr "Totalt Side Brukere"
+
+#: modules/premium/admin-analytics.php:276
+msgid "Average Page Speed"
+msgstr "Gjennomsnittslig Side Hastighet"
+
+#: modules/premium/admin-analytics.php:277
+#: modules/premium/admin-overview-cards.php:28
+msgid "Recent Comments"
+msgstr "Nylige Kommentarer"
+
+#: modules/premium/admin-analytics.php:278
+msgid "Bounce Rate"
+msgstr "Avvisningsfrekvens"
+
+#: modules/premium/admin-analytics.php:279
+msgid "Visits By Country"
+msgstr "Besøkende av Land"
+
+#: modules/premium/admin-analytics.php:280
+msgid "Visits By Page"
+msgstr "Besøkende av Side"
+
+#: modules/premium/admin-analytics.php:281
+msgid "Traffic Sources"
+msgstr "Trafikkilder"
+
+#: modules/premium/admin-analytics.php:282
+msgid "Session Duration"
+msgstr "Øktens varighet"
+
+#: modules/premium/admin-analytics.php:404
+msgid "Page Views"
+msgstr "Side Visninger"
+
+#: modules/premium/admin-analytics.php:424
+#: modules/premium/admin-analytics.php:506
+#: modules/premium/admin-analytics.php:590
+#: modules/premium/admin-analytics.php:665
+#: modules/premium/admin-analytics.php:724
+#: modules/premium/admin-analytics.php:794
+#: modules/premium/admin-analytics.php:840
+#: modules/premium/admin-analytics.php:915
+#: modules/premium/admin-analytics.php:993
+msgid "Connect analytics account to view site statistics"
+msgstr "Koble til analyse konto for å vise side statistikk"
+
+#: modules/premium/admin-analytics.php:435
+#: modules/premium/admin-analytics.php:517
+#: modules/premium/admin-analytics.php:601
+#: modules/premium/admin-analytics.php:735
+#: modules/premium/admin-analytics.php:805
+msgid "vs previous"
+msgstr "vs forrige"
+
+#: modules/premium/admin-analytics.php:435
+#: modules/premium/admin-analytics.php:517
+#: modules/premium/admin-analytics.php:601
+#: modules/premium/admin-analytics.php:735
+#: modules/premium/admin-analytics.php:805
+#: modules/premium/admin-overview-cards.php:91
+#: modules/premium/admin-overview-cards.php:150
+#: modules/premium/admin-overview-cards.php:207
+#: modules/premium/admin-woocommerce.php:333
+#: modules/premium/admin-woocommerce.php:453
+msgid "days"
+msgstr "dager"
+
+#: modules/premium/admin-analytics.php:487
+msgid "Site Users"
+msgstr "Nettstedsbrukere"
+
+#: modules/premium/admin-analytics.php:570
+msgid "Avg page speed"
+msgstr "Avg side hastighet"
+
+#: modules/premium/admin-analytics.php:651
+msgid "Devices"
+msgstr "Enheter"
+
+#: modules/premium/admin-analytics.php:846
+msgid "Country"
+msgstr "Land"
+
+#: modules/premium/admin-analytics.php:847
+#: modules/premium/admin-analytics.php:922
+#: modules/premium/admin-analytics.php:1000
+msgid "Visits"
+msgstr "Besøk"
+
+#: modules/premium/admin-analytics.php:849
+#: modules/premium/admin-analytics.php:924
+#: modules/premium/admin-analytics.php:1002
+msgid "Change"
+msgstr "Endring"
+
+#: modules/premium/admin-analytics.php:921
+msgid "Source"
+msgstr "Kilde"
+
+#: modules/premium/admin-analytics.php:999
+msgid "Page"
+msgstr "Side"
+
+#: modules/premium/admin-content.php:80 modules/premium/admin-content.php:326
+#: modules/premium/admin-content.php:631 modules/premium/admin-content.php:1391
+msgid "Content"
+msgstr "Innhold"
+
+#: modules/premium/admin-content.php:82
+msgid "Creates the content page where you can manage all of your assets, posts and pages from one place."
+msgstr "Oppretter innholdssiden der du kan administrere alle eiendelene, innleggene og sidene dine fra ett sted."
+
+#: modules/premium/admin-content.php:117
+msgid "Admin 2020 content page disabled for"
+msgstr "Admin 2020 innholdsside deaktivert for"
+
+#: modules/premium/admin-content.php:118
+msgid "Admin 2020 Content Page will be disabled for any users or roles you select"
+msgstr "Admin 2020 Innholdsside vil bli deaktivert for de brukerene eller rollene du velger"
+
+#: modules/premium/admin-content.php:374
+msgid "Load More"
+msgstr "Last mer"
+
+#: modules/premium/admin-content.php:425 modules/premium/admin-content.php:510
+msgid "Batch Rename"
+msgstr "Batchendring"
+
+#: modules/premium/admin-content.php:428
+msgid "Batch rename only currently works with media files and attachments, any selected posts will be ignored."
+msgstr "Batchnavn fungerer for øyeblikket bare med mediefiler og vedlegg. Valgte innlegg blir ignorert."
+
+#: modules/premium/admin-content.php:436
+msgid "Attribute to rename"
+msgstr "Attribute å gi nytt navn til"
+
+#: modules/premium/admin-content.php:439 modules/premium/admin-overview.php:177
+#: modules/premium/admin-overview.php:203
+msgid "Name"
+msgstr "Navn"
+
+#: modules/premium/admin-content.php:440
+msgid "Alt Tag"
+msgstr "Alt Tag"
+
+#: modules/premium/admin-content.php:446
+msgid "New Name"
+msgstr "Nytt navn"
+
+#: modules/premium/admin-content.php:452
+msgid "Original Filename"
+msgstr "Original filnavn"
+
+#: modules/premium/admin-content.php:453 modules/premium/admin-content.php:2059
+msgid "Text"
+msgstr "Tekst"
+
+#: modules/premium/admin-content.php:454 modules/premium/admin-content.php:2082
+msgid "Date Uploaded"
+msgstr "Opplastningsdato"
+
+#: modules/premium/admin-content.php:455
+msgid "Original Alt"
+msgstr "Original Alt"
+
+#: modules/premium/admin-content.php:456
+msgid "File Extension"
+msgstr "Filutvidelse"
+
+#: modules/premium/admin-content.php:457
+msgid "Sequence Number"
+msgstr "Sekvensnummer"
+
+#: modules/premium/admin-content.php:458
+msgid "Meta Value"
+msgstr "Metaverdi"
+
+#: modules/premium/admin-content.php:464
+msgid "Add"
+msgstr "Legg Til"
+
+#: modules/premium/admin-content.php:482
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: modules/premium/admin-content.php:487
+msgid "Rename"
+msgstr "Gi nytt navn"
+
+#: modules/premium/admin-content.php:509
+msgid "Deselect All"
+msgstr "Opphev alle"
+
+#: modules/premium/admin-content.php:511 modules/premium/admin-content.php:1513
+#: modules/premium/admin-content.php:1766 modules/premium/admin-folders.php:761
+msgid "Delete"
+msgstr "Slett"
+
+#: modules/premium/admin-content.php:545 modules/premium/admin-content.php:706
+#: modules/premium/admin-content.php:720 modules/premium/admin-content.php:736
+#: modules/premium/admin-folders.php:476 modules/premium/admin-overview.php:611
+msgid "All"
+msgstr "Alle\n"
+""
+
+#: modules/premium/admin-content.php:572
+msgid "Upload"
+msgstr "Laste opp"
+
+#: modules/premium/admin-content.php:636
+msgid "New"
+msgstr "Ny"
+
+#: modules/premium/admin-content.php:678
+msgid "Toggle Folders"
+msgstr "Bytt mapper"
+
+#: modules/premium/admin-content.php:682
+msgid "Toggle List View"
+msgstr "Bytt listevisning"
+
+#: modules/premium/admin-content.php:692
+msgid "Search Content"
+msgstr "Søk i innhold"
+
+#: modules/premium/admin-content.php:695
+msgid "Filters"
+msgstr "Filtre"
+
+#: modules/premium/admin-content.php:703
+msgid "Month"
+msgstr "Måned"
+
+#: modules/premium/admin-content.php:717
+msgid "Year"
+msgstr "År"
+
+#: modules/premium/admin-content.php:733
+msgid "Users"
+msgstr "Brukere"
+
+#: modules/premium/admin-content.php:751
+msgid "Upload files"
+msgstr "Last opp filer"
+
+#: modules/premium/admin-content.php:761
+msgid "Thumnbnail size"
+msgstr "Thumnbnail størrelse"
+
+#: modules/premium/admin-content.php:808
+msgid "No content found"
+msgstr "Fant ingen innhold"
+
+#: modules/premium/admin-content.php:1017
+#: modules/premium/admin-content.php:1027
+#: modules/premium/admin-content.php:1095
+#: modules/premium/admin-content.php:1109
+msgid "View details"
+msgstr "Vis detaljer"
+
+#: modules/premium/admin-content.php:1094
+msgid "By"
+msgstr "Av"
+
+#: modules/premium/admin-content.php:1371
+msgid "Duplicate"
+msgstr "Dupliser"
+
+#: modules/premium/admin-content.php:1436
+#: modules/premium/admin-woocommerce.php:623
+msgid "Status"
+msgstr "Status"
+
+#: modules/premium/admin-content.php:1457
+msgid "Featured Image"
+msgstr "Utvalgt bilde"
+
+#: modules/premium/admin-content.php:1650
+msgid "Attributes"
+msgstr "Attributter"
+
+#: modules/premium/admin-content.php:1651
+msgid "Meta"
+msgstr "Meta"
+
+#: modules/premium/admin-content.php:1679
+msgid "Alt Text"
+msgstr "Alt Tekst"
+
+#: modules/premium/admin-content.php:1686
+msgid "Caption"
+msgstr "Bildetekst"
+
+#: modules/premium/admin-content.php:1693
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: modules/premium/admin-content.php:1706
+msgid "Link copied to clipboard"
+msgstr "Link kopiert til utklippstavlen"
+
+#: modules/premium/admin-content.php:1725
+msgid "File Type"
+msgstr "Filtype"
+
+#: modules/premium/admin-content.php:1729
+msgid "Uploaded"
+msgstr "Lastet opp"
+
+#: modules/premium/admin-content.php:1733
+msgid "Size"
+msgstr "Størrelse"
+
+#: modules/premium/admin-content.php:1739
+msgid "Dimensions"
+msgstr "Dimensjoner"
+
+#: modules/premium/admin-content.php:1810
+msgid "Unable to save item"
+msgstr "Kan ikke lagre varen"
+
+#: modules/premium/admin-content.php:1822
+msgid "Item Updated"
+msgstr "Vare oppdatert"
+
+#: modules/premium/admin-content.php:1860
+#: modules/premium/admin-content.php:2405
+#: modules/premium/admin-content.php:2413
+#: modules/premium/admin-content.php:2422
+msgid "Unable to save attachment"
+msgstr "Kan ikke lagre vedlegget"
+
+#: modules/premium/admin-content.php:1866
+msgid "Attachment Saved"
+msgstr "Vedlegg lagret"
+
+#: modules/premium/admin-content.php:1910
+msgid "Items Deleted"
+msgstr "Elementer slettet"
+
+#: modules/premium/admin-content.php:1930
+msgid "Unable to delete item"
+msgstr "Kan ikke slette elementet"
+
+#: modules/premium/admin-content.php:1935
+msgid "Item Deleted"
+msgstr "Element slettet"
+
+#: modules/premium/admin-content.php:1940
+msgid "insufficient privileges to delete item"
+msgstr "utilstrekkelige privilegier for å slette elementet"
+
+#: modules/premium/admin-content.php:2007
+msgid "Post duplicated"
+msgstr "Innlegg duplisert"
+
+#: modules/premium/admin-content.php:2036
+msgid "Filename"
+msgstr "Filnavn"
+
+#: modules/premium/admin-content.php:2041
+msgid "Current Filename"
+msgstr "Nåværende filnavn"
+
+#: modules/premium/admin-content.php:2064
+msgid "New text"
+msgstr "Ny tekst"
+
+#: modules/premium/admin-content.php:2087
+msgid "Format"
+msgstr "Format"
+
+#: modules/premium/admin-content.php:2106
+msgid "Alt"
+msgstr "Alt"
+
+#: modules/premium/admin-content.php:2111
+msgid "Current Alt"
+msgstr "Nåværende Alt"
+
+#: modules/premium/admin-content.php:2129
+msgid "Extension"
+msgstr "Utvidelser"
+
+#: modules/premium/admin-content.php:2134
+msgid "Current Extension"
+msgstr "Nåværende utvidelse"
+
+#: modules/premium/admin-content.php:2152
+msgid "Sequence start num"
+msgstr "Sekvensstart num"
+
+#: modules/premium/admin-content.php:2157
+msgid "Start Number"
+msgstr "Startnummer"
+
+#: modules/premium/admin-content.php:2175
+msgid "Meta key"
+msgstr "Metanøkkel"
+
+#: modules/premium/admin-content.php:2180
+msgid "Meta Key"
+msgstr "Meta Key"
+
+#: modules/premium/admin-content.php:2215
+msgid "No attachments selected"
+msgstr "Ingen vedlegg valgt"
+
+#: modules/premium/admin-content.php:2260
+msgid "Invalid Date Format"
+msgstr "Ugyldig datoformat"
+
+#: modules/premium/admin-content.php:2310
+msgid "Attachments successfully renamed"
+msgstr "Vedlegget er vellykket endret navn på"
+
+#: modules/premium/admin-content.php:2346
+#: modules/premium/admin-content.php:2464
+msgid "Failed to upload file"
+msgstr "Kunne ikke laste opp filen"
+
+#: modules/premium/admin-content.php:2374
+msgid "Files succesfully uploaded"
+msgstr "Filene er lastet opp"
+
+#: modules/premium/admin-content.php:2428
+msgid "Image Saved"
+msgstr "Bilde lagret"
+
+#: modules/premium/admin-content.php:2484
+msgid "File saved as copy"
+msgstr "Filen er lagret som kopi"
+
+#: modules/premium/admin-folders.php:118 modules/premium/admin-folders.php:313
+msgid "Folders"
+msgstr "Mapper"
+
+#: modules/premium/admin-folders.php:120
+msgid "Creates the folder system for the content page and media page / modals."
+msgstr "Oppretter mappesystemet for innholdssiden og mediesiden / modalene."
+
+#: modules/premium/admin-folders.php:147
+msgid "Folders Disabled for"
+msgstr "Mapper deaktivert for"
+
+#: modules/premium/admin-folders.php:148
+msgid "Folders will be disabled for any users or roles you select"
+msgstr "Mapper blir deaktivert for alle brukere eller roller du velger"
+
+#: modules/premium/admin-folders.php:262
+msgid "Add New Folder"
+msgstr "Legg Til Ny Mappe"
+
+#: modules/premium/admin-folders.php:263 modules/premium/admin-folders.php:524
+#: modules/premium/admin-folders.php:528
+msgid "New Folder"
+msgstr "Ny mappe"
+
+#: modules/premium/admin-folders.php:264 modules/premium/admin-folders.php:746
+msgid "Edit Folder"
+msgstr "Rediger Mappe"
+
+#: modules/premium/admin-folders.php:265
+msgid "View Folder"
+msgstr "Vis mappe"
+
+#: modules/premium/admin-folders.php:266
+msgid "All Folders"
+msgstr "Alle Mapper"
+
+#: modules/premium/admin-folders.php:267
+msgid "Search Folders"
+msgstr "Søk i mapper"
+
+#: modules/premium/admin-folders.php:268
+msgid "No Folders found."
+msgstr "Ingen mapper funnet."
+
+#: modules/premium/admin-folders.php:269
+msgid "No Folders found in Trash."
+msgstr "Ingen mapper funnet i papirkurven."
+
+#: modules/premium/admin-folders.php:273 modules/premium/admin-pages.php:269
+msgid "Description."
+msgstr "Beskrivelse."
+
+#: modules/premium/admin-folders.php:501
+msgid "Uncategorised"
+msgstr "Ukategorisert"
+
+#: modules/premium/admin-folders.php:529 modules/premium/admin-folders.php:747
+msgid "Folder Name"
+msgstr "Mappenavn"
+
+#: modules/premium/admin-folders.php:530 modules/premium/admin-folders.php:748
+msgid "Colour Tag"
+msgstr "Farge Tag"
+
+#: modules/premium/admin-folders.php:540
+msgid "Create"
+msgstr "Opprett"
+
+#: modules/premium/admin-folders.php:642
+msgid "Double click to edit"
+msgstr "Dobbeltklikk for å redigere"
+
+#: modules/premium/admin-folders.php:834
+msgid "Folder succesfully renamed"
+msgstr "Mappen ble omdøpt"
+
+#: modules/premium/admin-folders.php:881
+msgid "Folder succesfully deleted"
+msgstr "Mappen ble slettet"
+
+#: modules/premium/admin-folders.php:909
+msgid "Items Moved to folder"
+msgstr "Elementer flyttet til mappen"
+
+#: modules/premium/admin-folders.php:951
+msgid "Folder is already there"
+msgstr "Mappen er allerede der"
+
+#: modules/premium/admin-folders.php:959
+msgid "No source or destination provided"
+msgstr "Ingen kilde eller destinasjon oppgitt"
+
+#: modules/premium/admin-folders.php:980
+msgid "Folder Moved"
+msgstr "Mappe er flyttet\n"
+""
+
+#: modules/premium/admin-menu-editor.php:99
+#: modules/premium/admin-menu-editor.php:300
+msgid "Menu Editor"
+msgstr "Meny Redigering"
+
+#: modules/premium/admin-menu-editor.php:101
+msgid "Creates the menu editor and allows for rearanging, renaming and removal of menu items."
+msgstr "Oppretter meny redigering og tillater omorganisering, omdøping og fjerning av menyelementer."
+
+#: modules/premium/admin-menu-editor.php:125
+msgid "Menu Editor Disabled for"
+msgstr "Meny Redigering deaktivert for"
+
+#: modules/premium/admin-menu-editor.php:126
+msgid "Admin 2020 menu editor will be disabled for any users or roles you select"
+msgstr "Admin 2020 meny redigeringsverktøyet vil bli deaktivert for de brukerene eller rollene du velger"
+
+#: modules/premium/admin-menu-editor.php:251
+msgid "Menu Editor (Admin 2020)"
+msgstr "Meny Redigering (Admin 2020)"
+
+#: modules/premium/admin-menu-editor.php:271
+msgid "Edit each menu item's name, link, icon and visibility. Drag and drop to rearange the menu. Changes will take effect after page refresh."
+msgstr "Rediger hvert menyelements navn, lenke, ikon og synlighet. Dra og slipp for å omorganisere menyen. Endringene trer i kraft etter oppdatering av siden."
+
+#: modules/premium/admin-menu-editor.php:275
+msgid "If you have admin 2020 menu component disabled, icons and label dividers won't change."
+msgstr "Hvis du har admin 2020-menykomponent deaktivert, vil ikoner og etikettdelere ikke endres."
+
+#: modules/premium/admin-menu-editor.php:310
+msgid "Export Menu"
+msgstr "Eksportmeny"
+
+#: modules/premium/admin-menu-editor.php:317
+msgid "Imports Admin 2020 menu from JSON"
+msgstr "Importerer Admin 2020-menyen fra JSON"
+
+#: modules/premium/admin-menu-editor.php:317
+msgid "Import Menu"
+msgstr "Importer-meny"
+
+#: modules/premium/admin-menu-editor.php:322
+msgid "Reset Menu"
+msgstr "Tilbakestill meny"
+
+#: modules/premium/admin-menu-editor.php:329
+msgid "Are you sure you want to reset your menu back to default? There is no undo"
+msgstr "Er du sikker på at du vil resette menyen tilbake til opprinnelig? Det er ikke mulig å gå tilbake på valget"
+
+#: modules/premium/admin-menu-editor.php:415
+msgid "Separator"
+msgstr "Separator"
+
+#: modules/premium/admin-menu-editor.php:423
+#: modules/premium/admin-menu-editor.php:571
+#: modules/premium/admin-menu-editor.php:728
+msgid "Rename as"
+msgstr "Gi nytt navn til"
+
+#: modules/premium/admin-menu-editor.php:424
+#: modules/premium/admin-menu-editor.php:572
+#: modules/premium/admin-menu-editor.php:729
+msgid "New name..."
+msgstr "Nytt navn ..."
+
+#: modules/premium/admin-menu-editor.php:429
+#: modules/premium/admin-menu-editor.php:577
+#: modules/premium/admin-menu-editor.php:734
+msgid "Hidden For Roles"
+msgstr "Skjult for roller"
+
+#: modules/premium/admin-menu-editor.php:560
+msgid "Sub Menu"
+msgstr "Undermeny"
+
+#: modules/premium/admin-menu-editor.php:632
+#: modules/premium/admin-menu-editor.php:790
+msgid "Change Link"
+msgstr "Endre lenke"
+
+#: modules/premium/admin-menu-editor.php:633
+#: modules/premium/admin-menu-editor.php:791
+msgid "New Link..."
+msgstr "Ny lenke ..."
+
+#: modules/premium/admin-menu-editor.php:637
+msgid "Set custom icon"
+msgstr "Sett tilpasset ikon"
+
+#: modules/premium/admin-menu-editor.php:639
+msgid "Choose Icon"
+msgstr "Veg Ikon"
+
+#: modules/premium/admin-menu-editor.php:660
+msgid "No sub menu items"
+msgstr "Ingen undermenyelementer"
+
+#: modules/premium/admin-menu-editor.php:818
+msgid "Icons"
+msgstr "Ikoner"
+
+#: modules/premium/admin-menu-editor.php:826
+msgid "Use Default"
+msgstr "Bruk standard"
+
+#: modules/premium/admin-menu-editor.php:1007
+msgid "Select"
+msgstr "Velg"
+
+#: modules/premium/admin-menu-editor.php:1477
+msgid "Settings saved"
+msgstr "Instillinger lagret"
+
+#: modules/premium/admin-menu-editor.php:1508
+msgid "Settings reset"
+msgstr "Innstillingene ble tilbakestilt"
+
+#: modules/premium/admin-menu-editor.php:1558
+msgid "Menu Imported"
+msgstr "Meny importert"
+
+#: modules/premium/admin-overview-cards.php:25
+msgid "Total Posts"
+msgstr "Totalt antall innlegg"
+
+#: modules/premium/admin-overview-cards.php:26
+msgid "Total Pages"
+msgstr "Totalt antall sider"
+
+#: modules/premium/admin-overview-cards.php:27
+msgid "Total Comments"
+msgstr "Totalt antall kommentarer"
+
+#: modules/premium/admin-overview-cards.php:29
+msgid "System Info"
+msgstr "Systeminformasjon"
+
+#: modules/premium/admin-overview-cards.php:30
+msgid "Recently Published"
+msgstr "Nylig publisert"
+
+#: modules/premium/admin-overview-cards.php:91
+#: modules/premium/admin-overview-cards.php:150
+#: modules/premium/admin-overview-cards.php:207
+msgid "In the last "
+msgstr "I den siste "
+
+#: modules/premium/admin-overview-cards.php:261
+msgid "No comments for date range"
+msgstr "Ingen kommentarer for datoperioden"
+
+#: modules/premium/admin-overview-cards.php:278
+#: modules/premium/admin-overview-cards.php:428
+msgid "ago"
+msgstr "siden"
+
+#: modules/premium/admin-overview-cards.php:319
+msgid "on"
+msgstr "på"
+
+#: modules/premium/admin-overview-cards.php:352
+msgid "WordPress version"
+msgstr "WordPress-versjon"
+
+#: modules/premium/admin-overview-cards.php:356
+msgid "PHP version"
+msgstr "PHP-versjon"
+
+#: modules/premium/admin-overview-cards.php:416
+msgid "No posts for date range"
+msgstr "Ingen innlegg for datoperioden"
+
+#: modules/premium/admin-overview-cards.php:435
+msgid "by"
+msgstr "av"
+
+#: modules/premium/admin-overview.php:71
+msgid "Creates the overview page. If this is disabled, you will not be able to see analytics cards or woocommerce cards."
+msgstr "Oppretter oversiktssiden. Hvis dette er deaktivert, vil du ikke kunne se analysekort eller woocommerce-kort."
+
+#: modules/premium/admin-overview.php:103
+msgid "Overview Disabled for"
+msgstr "Oversikt Deaktivert for"
+
+#: modules/premium/admin-overview.php:104
+msgid "Admin 2020 overview page will be disabled for any users or roles you select"
+msgstr "Admin 2020 oversikt side vil bli deaktivert for de brukerene eller rollene du velger"
+
+#: modules/premium/admin-overview.php:167
+msgid "Add videos to the overview page"
+msgstr "Legg til videor på oversikt siden"
+
+#: modules/premium/admin-overview.php:168
+msgid "Here you can add video links that will then load up as video cards on the overviewpage. Choosing a category name will also give it a custom category on the overview page. "
+msgstr "Her kan du legge til videolinker som deretter lastes opp som skjermkort på oversiktssiden. Hvis du velger et kategorinavn, vil det også gi den en egendefinert kategori på oversiktssiden. "
+
+#: modules/premium/admin-overview.php:180
+msgid "Url"
+msgstr "Url"
+
+#: modules/premium/admin-overview.php:183
+#: modules/premium/admin-overview.php:205
+msgid "Category"
+msgstr "Kategori"
+
+#: modules/premium/admin-overview.php:187
+msgid "Video URL Type"
+msgstr "Video URL Type"
+
+#: modules/premium/admin-overview.php:189
+msgid "Youtube embed"
+msgstr "Youtube Embed"
+
+#: modules/premium/admin-overview.php:190
+msgid "Vimeo embed"
+msgstr "Vime Embed"
+
+#: modules/premium/admin-overview.php:194
+msgid "Add Video"
+msgstr "Legg til Video"
+
+#: modules/premium/admin-overview.php:204
+msgid "URL"
+msgstr "URL"
+
+#: modules/premium/admin-overview.php:336
+#: modules/premium/admin-overview.php:809
+msgid "Make Primary"
+msgstr "Gjør til Hoved"
+
+#: modules/premium/admin-overview.php:341
+#: modules/premium/admin-overview.php:814
+msgid "Make Default"
+msgstr "Lag til Standard"
+
+#: modules/premium/admin-overview.php:357
+#: modules/premium/admin-overview.php:830
+msgid "Hide"
+msgstr "Gjem"
+
+#: modules/premium/admin-overview.php:413
+msgid "No Card supplied to save"
+msgstr "Ingen Kort valgt for å lagre"
+
+#: modules/premium/admin-overview.php:455
+#: modules/premium/admin-overview.php:517
+msgid "Card options saved"
+msgstr "Kort alternativer lagret"
+
+#: modules/premium/admin-overview.php:458
+#: modules/premium/admin-overview.php:520
+msgid "Unable to save card preferences"
+msgstr "Ute av stand til å lagre kort preferansene"
+
+#: modules/premium/admin-overview.php:480
+msgid "No Card supplied to hide"
+msgstr "Ingen kort valgt for å gjemme"
+
+#: modules/premium/admin-overview.php:680
+msgid "Hello"
+msgstr "Hallo"
+
+#: modules/premium/admin-overview.php:702
+msgid "Active Cards"
+msgstr "Aktive Kort"
+
+#: modules/premium/admin-pages.php:100
+msgid "Admin Pages"
+msgstr "Admin Sider"
+
+#: modules/premium/admin-pages.php:102
+msgid "Creates the admin pages editor, allowing you to create new top level admin pages and their content"
+msgstr "Oppretter Admin Side redigeringsverktøyet, tillater deg å lage ny topnivå admin sider og deres innhold"
+
+#: modules/premium/admin-pages.php:126
+msgid "Admin Pages Disabled for"
+msgstr "Admin Sider Deaktivert for"
+
+#: modules/premium/admin-pages.php:127
+msgid "Admin 2020 admin pages will be disabled for any users or roles you select"
+msgstr "Admin 2020 admin sider vil bli deaktivert for de brukerene eller rollene du velger"
+
+#: modules/premium/admin-pages.php:258
+msgid "Add New Admin Page"
+msgstr "Legg til ny Admin Side"
+
+#: modules/premium/admin-pages.php:259
+msgid "New Admin Page"
+msgstr "Ny Admin Side"
+
+#: modules/premium/admin-pages.php:260
+msgid "Edit Admin Page"
+msgstr "Rediger Admin Side"
+
+#: modules/premium/admin-pages.php:261
+msgid "View Admin Page"
+msgstr "Vis Admin Sider"
+
+#: modules/premium/admin-pages.php:262
+msgid "All Admin Pages"
+msgstr "Alle Admin Sider"
+
+#: modules/premium/admin-pages.php:263
+msgid "Search Admin Pages"
+msgstr "Søk i Admin Sider"
+
+#: modules/premium/admin-pages.php:264
+msgid "No Admin Pages found."
+msgstr "Ingen Admin Sider funnet"
+
+#: modules/premium/admin-pages.php:265
+msgid "No Admin Pages found in Trash."
+msgstr "Ingen Admin Sider funnet i søppelbøtten"
+
+#: modules/premium/admin-woocommerce.php:73
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: modules/premium/admin-woocommerce.php:75
+msgid "Creates the woocommerce cards for the overview page."
+msgstr "Lager WooCommerce kortene for oversikt siden"
+
+#: modules/premium/admin-woocommerce.php:101
+msgid "WooCommerce Cards"
+msgstr "WooCommere Kort"
+
+#: modules/premium/admin-woocommerce.php:102
+msgid "WooCommerce cards will be disabled for any users or roles you select"
+msgstr "Woocommerce kortene vil bli deaktivert for de brukerne eller rollene du velger"
+
+#: modules/premium/admin-woocommerce.php:183
+#: modules/premium/admin-woocommerce.php:308
+msgid "Total Sales"
+msgstr "Totalt Salg"
+
+#: modules/premium/admin-woocommerce.php:184
+#: modules/premium/admin-woocommerce.php:427
+msgid "Total Orders"
+msgstr "Totale Ordrer"
+
+#: modules/premium/admin-woocommerce.php:185
+msgid "Average Order Value"
+msgstr "Gjennomsnitlig Ordre Verdi"
+
+#: modules/premium/admin-woocommerce.php:186
+msgid "Popular Products"
+msgstr "Populære Produkter"
+
+#: modules/premium/admin-woocommerce.php:187
+msgid "Recent Orders"
+msgstr "Nylige Ordrer"
+
+#: modules/premium/admin-woocommerce.php:325
+#: modules/premium/admin-woocommerce.php:444
+#: modules/premium/admin-woocommerce.php:560
+#: modules/premium/admin-woocommerce.php:615
+#: modules/premium/admin-woocommerce.php:736
+msgid "No sales data available for dates"
+msgstr "Ingen salgsinformasjon tilgjengelig for datoene"
+
+#: modules/premium/admin-woocommerce.php:333
+#: modules/premium/admin-woocommerce.php:453
+msgid "In the last"
+msgstr "I det siste"
+
+#: modules/premium/admin-woocommerce.php:569
+msgid "For given date period"
+msgstr "For gitt dato periode"
+
+#: modules/premium/admin-woocommerce.php:621
+msgid "Order"
+msgstr "Ordre"
+
+#: modules/premium/admin-woocommerce.php:622
+msgid "Customer"
+msgstr "Kunde"
+
+#: modules/premium/admin-woocommerce.php:624
+#: modules/premium/admin-woocommerce.php:699
+msgid "Value"
+msgstr "Verdi"
+
+#: modules/premium/admin-woocommerce.php:645
+msgid "View Order"
+msgstr "Vis oredrer"
+
+#: modules/premium/admin-woocommerce.php:648
+msgid "View Customer"
+msgstr "Vis Kunder"
+
+#: modules/premium/admin-woocommerce.php:697
+msgid "Product"
+msgstr "Produkt"
+
+#: modules/premium/admin-woocommerce.php:698
+msgid "Sold"
+msgstr "Solgt"
+

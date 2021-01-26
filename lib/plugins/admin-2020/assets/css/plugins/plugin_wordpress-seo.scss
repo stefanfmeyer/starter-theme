@@ -1,0 +1,30 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .yoast-container,
+  .yoast-sidebar__section,
+  .yoast_premium_upsell {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    * {
+      color: $dark;
+    }
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  #wpseo-settings-general-container {
+    //filter: invert(1) hue-rotate(180deg);
+  }
+  .wpseo_content_wrapper .paper.tab-block.search-appearance {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    * {
+      color: $dark;
+    }
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+}

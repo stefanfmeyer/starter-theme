@@ -1,0 +1,29 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  #jp-plugin-container {
+    filter: invert(1) hue-rotate(180deg);
+    * {
+      color: $dark;
+    }
+    input {
+      color: $dark;
+    }
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+    .dops-notice {
+      filter: invert(1) hue-rotate(180deg);
+      color: #fff;
+      * {
+        color: #fff;
+      }
+    }
+  }
+}
+.a2020_admin_theme.a2020_night_mode.jetpack-pagestyles {
+  #wpbody-content {
+    background: $dark;
+  }
+}

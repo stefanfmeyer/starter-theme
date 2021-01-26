@@ -1,0 +1,51 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.block-editor-page {
+  #sfwd-header {
+    top: 61px;
+    width: 100%;
+  }
+}
+
+.a2020_admin_theme.a2020_night_mode {
+  .ld-bootcamp__widget {
+    filter: invert(1) hue-rotate(180deg);
+    h2 {
+      color: $dark;
+    }
+    iframe {
+      filter: invert(1) hue-rotate(180deg);
+    }
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  .ld-overview {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    h2,
+    a {
+      color: $dark;
+    }
+  }
+  #sfwd-header {
+    filter: invert(1) hue-rotate(180deg);
+    a,
+    button {
+      color: $dark;
+    }
+  }
+  .ld-onboarding-more-help {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    h2,
+    h3,
+    a {
+      color: $dark;
+    }
+    iframe {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+}

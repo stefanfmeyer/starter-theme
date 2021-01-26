@@ -1,0 +1,147 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+#menu-management {
+  .menu-edit {
+    @include make-card;
+    overflow: hidden;
+    #nav-menu-header,
+    #nav-menu-footer {
+      background: $global-inverse-color;
+      border-color: $bordercolor;
+      padding: var(--a2020-card-padding);
+    }
+    #menu-instructions,
+    .drag-instructions {
+      margin-top: 20px;
+    }
+  }
+}
+.nav-menus-php #post-body {
+  padding: var(--a2020-card-padding);
+}
+.manage-menus {
+  padding: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+#menu-settings-column {
+  h2 {
+    margin-top: 0;
+  }
+  .accordion-container {
+    @include make-card;
+    overflow: hidden;
+    .outer-border {
+      padding-left: 0;
+    }
+  }
+  .control-section {
+    .accordion-section-title.hndle {
+      &:hover {
+        background: $global-inverse-color;
+        color: $global-primary-background;
+      }
+    }
+  }
+
+  .control-section.open {
+    .accordion-section-title.hndle {
+      background: $global-inverse-color;
+      color: $global-primary-background;
+    }
+  }
+}
+
+.menu-item-bar .menu-item-handle {
+  @include make-panel;
+  background: $global-muted-background;
+}
+.menu-item-settings {
+  @include make-panel;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+}
+
+.a2020_night_mode {
+  .menu-item-bar .menu-item-handle {
+    @include make-panel-dark;
+    background: $dark;
+    color: $global-inverse-color;
+  }
+  .menu-item-settings {
+    background: $dark;
+  }
+  .link-to-original {
+    border-color: $inverse-global-border;
+  }
+  .menu-item-settings {
+    @include make-panel-dark;
+  }
+  #menu-management {
+    .menu-edit {
+      @include make-card-dark;
+      #nav-menu-header,
+      #nav-menu-footer,
+      #post-body {
+        background: $mid-dark;
+        border-color: $inverse-global-border;
+      }
+    }
+  }
+  #menu-settings-column {
+    .accordion-container {
+      @include make-card-dark;
+    }
+
+    .control-section {
+      border-color: $inverse-global-border;
+
+      .accordion-section-title.hndle {
+        background: $mid-dark;
+        color: $global-inverse-color;
+
+        &:hover {
+          background: $light-dark;
+          color: $global-primary-background;
+        }
+      }
+      .accordion-section-content {
+        background: $mid-dark;
+      }
+    }
+
+    .control-section.open {
+      .accordion-section-title.hndle {
+        background: $light-dark;
+        color: $global-inverse-color;
+        font-weight: 500;
+        border: none;
+      }
+    }
+  }
+  .categorydiv div.tabs-panel,
+  .customlinkdiv div.tabs-panel,
+  .posttypediv div.tabs-panel,
+  .taxonomydiv div.tabs-panel,
+  .wp-tab-panel {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+  }
+  .wp-tab-active,
+  ul.add-menu-item-tabs li.tabs,
+  ul.category-tabs li.tabs {
+    background: $mid-dark;
+
+    border-color: $inverse-global-border;
+    border-bottom: none;
+  }
+  #post-body ul.add-menu-item-tabs li.tabs a,
+  #post-body ul.category-tabs li.tabs a,
+  #side-sortables .add-menu-item-tabs .tabs a,
+  #side-sortables .category-tabs .tabs a,
+  .wp-tab-bar .wp-tab-active a {
+    color: $global-inverse-color;
+  }
+}

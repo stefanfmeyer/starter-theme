@@ -1,0 +1,146 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+input[type="color"]:not(.uk-input),
+input[type="date"]:not(.uk-input),
+input[type="datetime-local"]:not(.uk-input),
+input[type="datetime"]:not(.uk-input),
+input[type="email"]:not(.uk-input),
+input[type="month"]:not(.uk-input),
+input[type="number"]:not(.uk-input),
+input[type="password"]:not(.uk-input),
+input[type="search"]:not(.uk-input),
+input[type="tel"]:not(.uk-input),
+input[type="text"],
+input[type="time"]:not(.uk-input),
+input[type="url"]:not(.uk-input),
+input[type="week"]:not(.uk-input),
+textarea {
+  @include make-input;
+}
+
+input[type="checkbox"]:not(.uk-input) {
+  background-color: $global-inverse-color;
+  color: $global-emphasis-color;
+  border: 1px solid $global-border;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+  &:checked:before {
+    transition: all 0.2s ease-in-out;
+  }
+}
+input[type="checkbox"]:checked {
+  background-color: $global-primary-background;
+  border: 1px solid $global-primary-background;
+  transition: all 0.2s ease-in-out;
+}
+input[type="checkbox"]:checked::before {
+  filter: brightness(4);
+}
+
+.wp-core-ui select {
+  background-color: $global-inverse-color;
+  color: $global-emphasis-color;
+  border: 1px solid $global-border;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+  padding: 0 10px;
+  padding-right: 30px;
+  box-shadow: none;
+  &:focus,
+  &:active {
+    border: 1px solid $global-primary-background;
+    box-shadow: none;
+  }
+  &:hover {
+    color: $global-emphasis-color;
+  }
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+  background: $global-inverse-color;
+  color: $global-emphasis-color;
+  border: 1px solid $global-border;
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+  padding: 0 20px;
+  &:hover {
+    border-color: $global-color;
+    color: $global-emphasis-color;
+    background: $global-inverse-color;
+  }
+}
+input.button.button-primary {
+  @include make-primary-button;
+}
+
+.a2020_night_mode {
+  input[type="color"]:not(.uk-input),
+  input[type="date"]:not(.uk-input),
+  input[type="datetime-local"]:not(.uk-input),
+  input[type="datetime"]:not(.uk-input),
+  input[type="email"]:not(.uk-input),
+  input[type="month"]:not(.uk-input),
+  input[type="number"]:not(.uk-input),
+  input[type="password"]:not(.uk-input),
+  input[type="search"]:not(.uk-input),
+  input[type="tel"]:not(.uk-input),
+  input[type="text"]:not(.uk-input),
+  input[type="time"]:not(.uk-input),
+  input[type="url"]:not(.uk-input),
+  input[type="week"]:not(.uk-input),
+  textarea {
+    background: $mid-dark;
+    border: 1px solid $inverse-global-border;
+    color: $global-inverse-color;
+    &:focus,
+    &:active {
+      border-color: $global-inverse-color;
+    }
+    .token {
+      background: $mid-dark;
+    }
+    .token-search {
+      border-color: $dark;
+      outline: none;
+      input {
+        border: none;
+      }
+    }
+  }
+
+  input[type="checkbox"]:not(.uk-input) {
+    background-color: transparent;
+    border-color: $light-dark;
+  }
+  input[type="checkbox"]:checked {
+    background-color: $global-primary-background;
+    border-color: $global-primary-background;
+  }
+}
+.a2020_night_mode.wp-core-ui {
+  .button,
+  .button-secondary {
+    background: $mid-dark;
+    border: 1px solid $inverse-global-border;
+    color: $global-inverse-color;
+    &:hover {
+      border-color: $global-inverse-color;
+    }
+  }
+  select {
+    background-color: $mid-dark;
+    border: 1px solid $inverse-global-border;
+    color: $global-inverse-color;
+    &:focus,
+    &:active {
+      border-color: $global-inverse-color;
+    }
+  }
+  input.button.button-primary {
+    @include make-primary-button;
+  }
+}

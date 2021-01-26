@@ -1,0 +1,44 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .fs-webform-container {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  .mec-pro-notice {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+  }
+  .w-box {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  .mec-add-event-tabs-wrap {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    h4,
+    a {
+      color: $dark;
+    }
+  }
+  .wns-be-container {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+  }
+  #mec-wrap h2.nav-tab-wrapper {
+    filter: invert(1) hue-rotate(180deg);
+    .nav-tab-active {
+      color: $dark;
+    }
+  }
+  .mec-container {
+    filter: invert(1) hue-rotate(180deg);
+    color: $dark;
+    h3 {
+      color: $dark;
+    }
+  }
+}

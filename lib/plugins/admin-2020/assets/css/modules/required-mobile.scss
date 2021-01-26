@@ -1,0 +1,34 @@
+/////////////////////////////////////////////
+//MOBILE STYLES //
+/////////////////////////////////////////////
+@media only screen and (max-width: 768px) {
+  .uk-tab {
+    width: calc(100% + 20px);
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+  }
+  #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
+    content: "\f228";
+    display: inline-block;
+    float: left;
+    font: normal 40px/45px dashicons;
+    vertical-align: middle;
+    outline: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 44px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+}

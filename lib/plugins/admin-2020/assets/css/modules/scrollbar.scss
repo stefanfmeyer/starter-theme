@@ -1,0 +1,21 @@
+@import "../variables.scss";
+
+.a2020_night_mode::-webkit-scrollbar {
+  background-color: $dark;
+}
+.a2020_night_mode::-webkit-scrollbar-thumb {
+  background-color: #333; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 2px solid $dark; /* creates padding around scroll thumb */
+}
+
+.a2020_night_mode {
+  *::-webkit-scrollbar {
+    background-color: $dark;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #333; /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+    border: 2px solid $dark; /* creates padding around scroll thumb */
+  }
+}

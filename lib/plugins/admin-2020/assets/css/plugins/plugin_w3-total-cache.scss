@@ -1,0 +1,22 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  #w3tc_dashboard_banner {
+    filter: invert(1) hue-rotate(180deg);
+    color: $mid-dark;
+    border-color: $bordercolor;
+    * {
+      color: $dark;
+    }
+  }
+  #w3tc-dashboard-widgets {
+    filter: invert(1) hue-rotate(180deg);
+    h1,
+    h2,
+    h3,
+    a {
+      color: $dark;
+    }
+  }
+}

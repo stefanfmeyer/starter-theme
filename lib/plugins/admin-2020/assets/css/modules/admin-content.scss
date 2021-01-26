@@ -1,0 +1,147 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+.a2020_attachment {
+  .attachment_meta_list {
+    display: none;
+  }
+  .attachment_meta {
+    .attachment_author {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+  .uk-label {
+    font-size: 12px;
+  }
+  .uk-label.draft {
+    background: $global-warning-background;
+  }
+  .uk-label.publish {
+    background: $global-success-background;
+  }
+  .list_view_details {
+    display: none;
+  }
+}
+.a2020_attachment.a2020_selected {
+  box-shadow: 0 0 0 2px $global-primary-background;
+  position: relative;
+  &:after {
+    content: "\f147";
+    width: 20px;
+    height: 20px;
+    font-family: dashicons;
+    color: $global-inverse-color;
+    position: absolute;
+    bottom: 5px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.3;
+    left: 5px;
+    border-radius: 50%;
+    background: $global-primary-background;
+  }
+}
+.a2020_bulk_actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  display: none;
+}
+.filepond--root {
+  [data-filepond-item-state="processing-complete"] .filepond--item-panel {
+    background: $global-success-background;
+  }
+  [data-filepond-item-state*="invalid"] .filepond--item-panel,
+  [data-filepond-item-state*="error"] .filepond--item-panel {
+    background: $global-danger-background;
+  }
+}
+.folder_panel_hidden {
+  display: none;
+}
+#a2020_media_items.a2020_list_view {
+  .attachment_wrap {
+    width: 100%;
+    margin-top: 10px;
+    max-width: 100% !important;
+    .uk-padding-small {
+      padding: 0 !important;
+    }
+    .list_view_details {
+      display: block;
+    }
+    .a2020_attachment {
+      padding: 10px;
+      box-sizing: border-box;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 100%;
+      max-width: 100% !important;
+      display: flex;
+      flex-direction: row;
+      .attachment_meta_list {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .a2020_post_details {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        width: 100%;
+        align-items: center;
+      }
+      .a2020_image_wrap {
+        width: 30%;
+        display: inline;
+      }
+      .post_titles {
+        width: 20%;
+        order: 1;
+      }
+      .post_statuses {
+        width: 20%;
+        order: 3;
+      }
+      .post_description {
+        width: 30%;
+        flex-grow: 1;
+        order: 2;
+      }
+      .post_statuses,
+      .post_description {
+        margin-left: 20px;
+      }
+    }
+    .attachment_meta {
+      display: none !important;
+    }
+  }
+}
+.a2020_night_mode {
+  .a2020_attachment.uk-background-default {
+    background: $mid-dark;
+  }
+  .a2020_attachment {
+    .uk-label.publish,
+    .uk-label.draft {
+      color: $global-inverse-color;
+    }
+  }
+}
+
+.admin2020_image_edit_wrap {
+  position: fixed;
+  top: 0;
+  border: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 9999;
+  display: none;
+}

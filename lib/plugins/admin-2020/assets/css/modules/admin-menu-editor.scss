@@ -1,0 +1,22 @@
+@import "../variables.scss";
+@import "hooks.scss";
+#admin2020_icon_select li {
+  cursor: pointer;
+}
+li.icon_selected {
+  color: $global-primary-background;
+  font-weight: bold;
+  position: relative;
+  &::after {
+    content: "\f15e";
+    font-family: dashicons;
+    margin-left: 10px;
+    background: $global-primary-background;
+    color: $global-inverse-color;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 4px;
+    line-height: 15px;
+  }
+}

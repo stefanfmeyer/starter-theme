@@ -1,0 +1,51 @@
+@import "../variables.scss";
+
+.a2020_night_mode {
+  .uk-background-default,
+  .uk-dropdown,
+  .uk-modal-dialog,
+  .uk-modal-footer {
+    background: $dark;
+  }
+  .uk-modal-footer {
+    border-top: 1px solid $inverse-global-border;
+  }
+  .uk-dropdown {
+    border-color: $inverse-global-border;
+  }
+  .uk-button-primary {
+    background: $global-primary-background;
+    color: $global-inverse-color;
+    &:hover {
+      background: var(--a2020-primary-darker);
+      color: $global-inverse-color;
+    }
+  }
+  .a2020-border-bottom {
+    border-bottom: 1px solid $inverse-global-border;
+  }
+  #wpadminbar .ab-sub-wrapper {
+    background: $dark !important;
+  }
+  .admin2020_menu {
+    .uk-nav-default {
+      & > li.uk-open > a {
+        color: $global-inverse-color;
+      }
+      & > li.uk-open > a {
+        .uk-icon-button {
+          color: $global-inverse-color;
+        }
+      }
+    }
+  }
+
+  .uk-card-default {
+    background: $mid-dark;
+  }
+  .upload-plugin-wrap .wp-upload-form,
+  .upload-theme-wrap .wp-upload-form,
+  .uk-placeholder {
+    background: $mid-dark;
+  }
+}

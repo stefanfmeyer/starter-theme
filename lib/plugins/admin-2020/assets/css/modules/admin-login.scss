@@ -1,0 +1,75 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+body.login {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  padding: 30px;
+  background-size: cover !important;
+  background-position: center center;
+  padding: 0;
+}
+
+#login {
+  @include make-card;
+  width: 400px;
+  max-width: 100%;
+
+  padding-top: 20px;
+  background: $global-inverse-color;
+
+  h1 a {
+    margin-top: 20px;
+  }
+  .message {
+    box-shadow: none;
+    margin: 0 !important;
+    border-left: none !important;
+    color: $global-primary-background;
+    border-top: 1px solid $global-border !important;
+    border-bottom: 1px solid $global-border !important;
+    padding-left: 23px;
+    font-weight: 600;
+    border-radius: 0;
+  }
+  #login_error {
+    box-shadow: none;
+    margin: 0 !important;
+    border-left: none !important;
+    color: $global-danger-background;
+    border-top: 1px solid $global-border !important;
+    border-bottom: 1px solid $global-border !important;
+    padding-left: 23px;
+    font-weight: 600;
+    border-radius: 0;
+  }
+  #loginform,
+  #lostpasswordform {
+    border: none;
+    padding-bottom: 20px;
+    background: none;
+  }
+  .submit {
+    .button-primary {
+      width: 100%;
+      margin-top: 20px;
+      border-radius: 4px;
+      height: 40px;
+    }
+  }
+}
+
+.a2020_night_mode {
+  #login {
+    background-color: $mid-dark;
+    .message,
+    #login_error {
+      background: none;
+      border-top: 1px solid $inverse-global-border !important;
+      border-bottom: 1px solid $inverse-global-border !important;
+    }
+  }
+}

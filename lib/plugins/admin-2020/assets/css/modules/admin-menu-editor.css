@@ -1,0 +1,1 @@
+﻿#admin2020_icon_select li{cursor:pointer}li.icon_selected{color:var(--a2020-primary);font-weight:bold;position:relative}li.icon_selected::after{content:"";font-family:dashicons;margin-left:10px;background:var(--a2020-primary);color:#fff;height:15px;width:15px;position:absolute;border-radius:4px;line-height:15px}

@@ -1,0 +1,255 @@
+@import "../variables.scss";
+@import "hooks.scss";
+ul,
+ol {
+  padding-left: initial;
+}
+dd,
+li {
+  margin-bottom: 0;
+}
+a,
+button,
+input[type="button"] {
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+a,
+.uk-link {
+  color: var(--a2020-primary);
+}
+.a2020-border-bottom {
+  border-bottom: 1px solid $global-border;
+}
+.uk-input {
+  border-radius: 4px;
+}
+.screen-reader-text {
+  display: none;
+}
+.tokenize-dropdown.dropdown {
+  z-index: 1020;
+  box-sizing: border-box;
+  min-width: 200px;
+  padding: 15px 10px;
+  background: $global-inverse-color;
+  color: $global-color;
+  border-radius: 4px;
+  box-shadow: $global-medium-box-shadow;
+  border: 1px solid $global-border;
+  .dropdown-menu {
+    padding: 0;
+    margin: 0;
+    li {
+      @include make-label;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+  }
+}
+input.uk-form-danger,
+input.uk-form-danger:focus,
+select.uk-form-danger,
+select.uk-form-danger:focus {
+  color: $global-danger-background;
+  border-color: $global-danger-background;
+}
+.tokenize .tokens-container {
+  @include make-input;
+}
+.uk-notification {
+  z-index: 999999;
+}
+.a2020_make_light {
+  background: $global-inverse-color;
+  &:hover,
+  &:focus,
+  &:active {
+    background: $global-inverse-color;
+  }
+}
+.a2020_make_square {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.admin2020loaderwrap {
+  width: 250px;
+  position: fixed;
+  height: 6px;
+  overflow: hidden;
+  bottom: 20px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
+  .admin2020loader {
+    width: 100%;
+    height: 100%;
+    background: #81acfb;
+  }
+}
+.a2020_code_editor {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  border: 1px solid $global-border;
+  border-radius: 4px;
+  pre {
+    background: none;
+    border-radius: 0;
+    border: none;
+    tab-size: inherit;
+    color: inherit;
+    font: inherit;
+    line-height: 20px;
+  }
+  code {
+    padding: 0;
+    margin: 0;
+    background: none;
+    font-size: inherit;
+  }
+  textarea {
+    &:focus,
+    &:active,
+    &:hover {
+      border: none;
+    }
+  }
+}
+
+.uk-table th {
+  text-transform: none;
+  font-size: 0.85rem;
+}
+
+.admin2020loader::after {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  content: " ";
+  border-radius: 4px;
+  animation-name: loadinngbar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background: $global-primary-background;
+  border-radius: 5px;
+}
+@keyframes loadinngbar {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 100%;
+    transform: translateX(100%);
+  }
+}
+.admin2020_google_sign_in {
+  position: relative;
+
+  .admin2020_icon_hover {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:hover {
+    .admin2020_icon_hover {
+      opacity: 1;
+    }
+  }
+}
+.a2020_border {
+  border: 1px solid $global-border;
+}
+.a2020_border_top {
+  border-top: 1px solid $global-border;
+}
+.a2020_border_bottom {
+  border-bottom: 1px solid $global-border;
+}
+.a2020_border_left {
+  border-left: 1px solid $global-border;
+}
+.a2020_border_right {
+  border-right: 1px solid $global-border;
+}
+#wp-auth-check-wrap #wp-auth-check {
+  border-radius: 4px;
+  background: $global-inverse-color;
+}
+.a2020_night_mode {
+  .tokenize-dropdown.dropdown {
+    background: #333;
+    border-color: $inverse-global-border;
+    .dropdown-menu {
+      li {
+        background: $light-dark;
+      }
+    }
+  }
+  .a2020_make_light {
+    background: $mid-dark;
+    border-color: $inverse-global-border;
+    &:hover,
+    &:focus,
+    &:active {
+      background: $mid-dark;
+    }
+  }
+  .a2020_border {
+    border-color: $inverse-global-border;
+  }
+  .a2020_border_top {
+    border-color: $inverse-global-border;
+  }
+  .a2020_border_bottom {
+    border-color: $inverse-global-border;
+  }
+  .a2020_border_left {
+    border-color: $inverse-global-border;
+  }
+  .a2020_border_right {
+    border-color: $inverse-global-border;
+  }
+  .uk-card-header {
+    border-color: $inverse-global-border;
+    border: none;
+  }
+  .tokenize .tokens-container {
+    background: $mid-dark;
+    border: 1px solid $inverse-global-border;
+    color: $global-inverse-color;
+    &:focus,
+    &:active {
+      border-color: $global-inverse-color;
+    }
+    .token {
+      background: $mid-dark;
+    }
+    .token-search {
+      border-color: $dark;
+      outline: none;
+      input {
+        border: none;
+      }
+    }
+  }
+  .tokenize > .tokens-container > .placeholder,
+  .tokenize > .tokens-container > .token-search {
+    border: none;
+  }
+}

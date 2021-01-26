@@ -1,0 +1,88 @@
+// Variable Overwrites
+@import "variables.scss";
+
+:root {
+  --a2020-primary: #{$a2020-primary-color};
+  --a2020-primary-darker: #{darken($a2020-primary-color, 10%)};
+  --a2020-primary-darker-extra: #{darken($a2020-primary-color, 20%)};
+  --a2020-primary-lighter: #{lighten($a2020-primary-color, 10%)};
+  --a2020-primary-wash: rgba(115, 165, 255, 0.21);
+  --a2020-card-padding: 20px;
+}
+
+html body.admin-bar {
+  margin-top: -32px;
+}
+#a2020-front-wrap {
+  @import "uikit/mixins-theme.scss";
+
+  @import "modules/hooks.scss";
+  // Import UIkit.
+  @import "uikit/uikit-theme.scss";
+
+  @import "modules/common.scss";
+  @import "modules/switch.scss";
+  @import "modules/dark.scss";
+  @import "modules/notification.scss";
+  @import "modules/required-mobile.scss";
+
+  font-size: 16px;
+  z-index: 99999;
+
+  * {
+    font-size: 14px;
+  }
+
+  .a2020-admin-bar {
+    .uk-navbar-nav > li > a,
+    .uk-navbar-item,
+    .uk-navbar-toggle {
+      min-height: 60px;
+    }
+    .uk-divider-vertical {
+      height: 50%;
+    }
+    #wpadminbar .ab-sub-wrapper,
+    #wpadminbar ul,
+    #wpadminbar ul li {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    li {
+      margin: 0;
+    }
+    .admin2020_legacy_admin {
+      z-index: 999;
+    }
+    .uk-button {
+      font-size: 14px;
+    }
+    #a2020_admin_bar_search_wrap,
+    #a2020_toggle_wrap {
+      display: none;
+    }
+  }
+  #offcanvas-user-menu {
+    right: 0;
+    left: auto;
+    .admin2020_slider:before {
+      white-space: nowrap;
+    }
+    .uk-h4 {
+      font-size: 22px;
+    }
+    a,
+    p,
+    .uk-text-meta {
+      font-size: 12px;
+    }
+    li {
+      margin: 0;
+    }
+  }
+
+  #offcanvas-user-menu.uk-open > .uk-offcanvas-bar {
+    left: auto;
+    right: 0;
+  }
+}

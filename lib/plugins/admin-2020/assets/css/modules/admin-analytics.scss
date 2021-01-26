@@ -1,0 +1,44 @@
+@import "../variables.scss";
+@import "hooks.scss";
+
+.uk-icon-button.a2020_up {
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  background: $global-success-background;
+  color: $global-inverse-color;
+  &:hover {
+    background: darken($global-success-background, 3%);
+    color: $global-inverse-color;
+  }
+}
+.uk-icon-button.a2020_down {
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  background: $global-danger-background;
+  color: $global-inverse-color;
+  &:hover {
+    background: darken($global-danger-background, 3%);
+    color: $global-inverse-color;
+  }
+}
+.a2020_night_mode,
+.uk-card.uk-card-primary {
+  .uk-icon-button.a2020_up {
+    background: $global-success-background;
+    color: $global-inverse-color;
+    &:hover {
+      background: darken($global-success-background, 3%);
+      color: $global-inverse-color;
+    }
+  }
+  .uk-icon-button.a2020_down {
+    background: $global-danger-background;
+    color: $global-inverse-color;
+    &:hover {
+      background: darken($global-danger-background, 3%);
+      color: $global-inverse-color;
+    }
+  }
+}

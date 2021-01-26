@@ -1,0 +1,56 @@
+@import "../variables.scss";
+:root {
+  --wp-admin-theme-color: #{$global-primary-background};
+  --wp-admin-theme-color-darker-10: var(--a2020-primary-darker);
+  --wp-admin-theme-color-darker-20: var(--a2020-primary-darker-extra);
+}
+body {
+  background: $global-muted-background;
+  font-family: "Nunito", sans-serif;
+}
+#wpwrap {
+  background: $global-muted-background;
+}
+
+#wpcontent {
+  padding: 0px;
+  #screen-meta-links {
+    display: none;
+  }
+}
+.wrap {
+  margin: 0;
+  padding: 50px;
+  .wp-heading-inline {
+    font-size: 2rem;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  & > h1 {
+    font-size: 2rem;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+}
+#wpfooter {
+  display: none;
+}
+
+body.a2020_night_mode {
+  background: $dark;
+  #wpwrap {
+    background: $dark;
+  }
+}
+
+@import "buttons.scss";
+@import "navigation.scss";
+@import "tables.scss";
+@import "inputs.scss";
+@import "components.scss";
+@import "menu-editor.scss";
+@import "media.scss";
+@import "editor.scss";
+@import "mobile.scss";
+@import "scrollbar.scss";
+@import "select2.scss";
